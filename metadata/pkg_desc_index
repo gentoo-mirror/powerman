@@ -68,6 +68,7 @@ runit-service/service-vmware 1.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-x 1.0.0 1.1.0: Service for x11-base/xorg-x11
 runit-service/setupservices 0 1 1-r1: Setup system to use runit services
 sys-apps/ucspi-ssl 0.94 0.94-r1 0.94-r2: Command-line tools for building SSL client-server applications.
+sys-libs/libixp 0.5: Standalone client/server 9P library
 sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
 sys-process/runit 1.8.0-r2 2.0.0 2.1.1 2.1.1-r1: A UNIX init scheme with service supervision
 sys-process/ulatencyd 0.5.0: Daemon that controls how the Linux kernel will spend it's resources on the running processes
