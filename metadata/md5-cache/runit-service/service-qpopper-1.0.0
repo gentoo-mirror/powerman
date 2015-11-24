@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Service for net-mail/qpopper
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices net-mail/qpopper
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-qpopper-1.0.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=6087a3664cea33a8c3e7a7de827b1988

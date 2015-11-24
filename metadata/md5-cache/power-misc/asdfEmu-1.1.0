@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=>=dev-inferno/inferno-20090624.430
+DESCRIPTION=Start OS Inferno and bind .lib/inferno/ to home directory
+EAPI=0
+HOMEPAGE=http://powerman.name/Software_asdf.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/asdf/asdfEmu/asdfEmu-1.1.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=119115744c612e0363336f14c3e01e9e

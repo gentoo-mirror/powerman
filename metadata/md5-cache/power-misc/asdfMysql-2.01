@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Start mysql client using db/user/pass from .lib/.db
+EAPI=0
+HOMEPAGE=http://powerman.name/Software_asdf.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/asdf/asdfMysql/asdfMysql-2.01.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=64fe0d2a3f87a20bfdf354ab9479f055

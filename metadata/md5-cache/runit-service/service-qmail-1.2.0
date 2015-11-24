@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Service for virtual/qmail
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices virtual/qmail sys-apps/ucspi-ssl
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-qmail-1.2.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=9243d182c66f759920b6ab13dda12ebd

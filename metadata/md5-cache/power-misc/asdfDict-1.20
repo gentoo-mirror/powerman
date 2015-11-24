@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Search dictionary located in MySQL database
+EAPI=0
+HOMEPAGE=http://powerman.name/Software.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/asdfDict/asdfDict-1.20.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=c7a9543e9de82785a8c2b2fc4ce5e24c

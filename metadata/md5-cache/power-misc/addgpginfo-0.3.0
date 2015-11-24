@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=app-crypt/gnupg
+DESCRIPTION=add GnuPG info into email headers while delivering
+EAPI=0
+HOMEPAGE=http://powerman.name/soft/
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/addgpginfo/addgpginfo-0.3.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=8c9820b4a2c3c00d341c3064695b3b75

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Service for net-ftp/tftp-hpa
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices net-misc/socat net-ftp/tftp-hpa
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-tftpd-1.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=579661f66735c742115af35cb23e7dc3

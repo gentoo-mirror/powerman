@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Service for net-ftp/twoftpd
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices net-ftp/twoftpd
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-twoftpd-1.0.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=52247ba44f7ce3ddc1919e980d2fe0ba

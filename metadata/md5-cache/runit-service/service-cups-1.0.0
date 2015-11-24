@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Service for net-print/cups
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices net-print/cups
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-cups-1.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=f34a17c5ba3dd0589f632eb89edc1c3c

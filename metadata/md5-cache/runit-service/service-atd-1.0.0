@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DESCRIPTION=Service for sys-process/at
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices sys-process/at
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-atd-1.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=dc1b738915f6ae0e88017db78b3e1146

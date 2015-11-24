@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=X? ( kde-base/kdialog x11-misc/xsel )
+DESCRIPTION=Search dictionary located in MySQL database
+EAPI=0
+HOMEPAGE=http://powerman.name/Software.html
+IUSE=X
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/asdfDict/asdfDict-1.50.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=825ae9a6ed84a53c4154a17f3936c134

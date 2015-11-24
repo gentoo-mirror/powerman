@@ -1,0 +1,10 @@
+DEFINED_PHASES=install
+DESCRIPTION=Control email delivery (for .qmail only)
+EAPI=0
+HOMEPAGE=http://powerman.name/soft/deliver.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+SLOT=0
+SRC_URI=http://powerman.name/download/deliver/deliver-2.1.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=d623c0fd2bf0d0b7cf92a8fff7e79f48

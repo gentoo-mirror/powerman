@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Service for sys-libs/gpm
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices sys-libs/gpm
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-gpm-1.0.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=874ea92db6db242b8dbe36e8a2d57ecc
