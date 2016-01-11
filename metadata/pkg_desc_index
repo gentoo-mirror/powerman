@@ -16,7 +16,7 @@ net-mail/queue-repair 0.9.0: A toolkit for dealing with the qmail queue director
 net-misc/amazon-glacier-cmd-interface 9999: Command line interface for Amazon Glacier
 net-misc/dropbox 3.12.4: Dropbox daemon (pretends to be GUI-less)
 net-p2p/i2p 0.9.7.1 0.9.8.1 0.9.10 0.9.13 0.9.16: I2P is an anonymous network.
-net-p2p/rtorrent 0.9.2 0.9.3: BitTorrent Client using libtorrent
+net-p2p/rtorrent 0.9.2 0.9.3 0.9.6: BitTorrent Client using libtorrent
 net-proxy/3proxy 0.7.1.2: 3Proxy is really tiny cross-platform proxy servers set
 power-misc/addgpginfo 0.1.0 0.1.1 0.2.0 0.3.0: add GnuPG info into email headers while delivering
 power-misc/asdfBackup 0.2.0 0.2.1: Prepare full project backup in .lib/tmp/backup.tar
