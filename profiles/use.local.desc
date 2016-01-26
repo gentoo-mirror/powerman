@@ -2,6 +2,3 @@
 # Please add your descriptions to your package's metadata.xml ONLY.
 # * generated automatically using pmaint *
 
-net-p2p/rtorrent:color - Add custom color support for torrent list
-net-p2p/rtorrent:daemon - Uses app-misc/screen to daemonize this application
-sys-apps/ucspi-ssl:tls - Add TLS support (see also http://www.suspectclass.com/~sgifford/ucspi-tls/)
