@@ -20,7 +20,7 @@ runit-service/service-3proxy 1.0.0 1.0.1 1.0.2: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.0 1.0.1: Service for sys-power/acpid
 runit-service/service-adsl 1.0.0 1.0.1: Service for net-dialup/rp-pppoe
 runit-service/service-agetty 1.0.0 1.0.1 1.0.2: Service for agetty
-runit-service/service-apache2 1.0.0: Service for www-servers/apache-2
+runit-service/service-apache2 1.0.0 1.1.0: Service for www-servers/apache-2
 runit-service/service-atd 1.0.0: Service for sys-process/at
 runit-service/service-consolekit 1.0.0: Service for sys-auth/consolekit
 runit-service/service-cups 1.0.0: Service for net-print/cups
