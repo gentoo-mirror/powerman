@@ -5,7 +5,7 @@ power-misc/greysmtpd 0.1.4: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/input_event 0.2.2: Enable the use and configuration of special keyboard keys
 power-misc/librev 1.0.2: Library for fake access to files from external app
 power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
-power-misc/powerutils 2.2.9: A bundle of useful small utilities
+power-misc/powerutils 2.2.10: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.5: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
 power-misc/runit-scripts 1.5.0: Replacement for SysV init scripts to use with runit.
