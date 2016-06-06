@@ -1,4 +1,14 @@
+app-emulation/vmware-macos-unlocker 1.1.0: Workstation 8 and Fusion 4 Mac OS X Unlocker
 dev-inferno/inferno 20150330-r1: OS Inferno Fourth Edition
+dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
+mail-mta/netqmail 1.06-r4: qmail -- a secure, reliable, efficient, simple message transfer agent
+media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
+media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
+media-sound/cue2tracks 0.2.16: Bash script for split audio CD image files with cue sheet to tracks and write tags.
+media-sound/flaccl 0.3: CUDA-enabled FLAC encoder (former FlaCuda)
+net-ftp/twoftpd 1.42: Simple secure efficient FTP server by Bruce Guenter
+net-mail/queue-repair 0.9.0: A toolkit for dealing with the qmail queue directory structure
+net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
 power-misc/addgpginfo 0.3.0: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.1.4: tcpserver-compatible anti-spam (greylisting) smtpd
@@ -42,3 +52,8 @@ runit-service/service-upsmon-usb 1.0.0: Service for sys-power/upsmon-usb
 runit-service/service-vmware 1.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-x 1.1.0: Service for x11-base/xorg-x11
 runit-service/setupservices 1-r1: Setup system to use runit services
+sys-apps/ucspi-ssl 0.94-r2: Command-line tools for building SSL client-server applications.
+sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
+sys-process/runit 2.1.1-r1: A UNIX init scheme with service supervision
+x11-misc/xse 2.1-r1: Command Line Interface to XSendEvent()
+x11-plugins/telegram-purple 9999: Adds support for Telegram to Pidgin, Adium, Finch and other Libpurple based messengers
