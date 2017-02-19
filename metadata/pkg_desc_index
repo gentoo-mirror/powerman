@@ -6,6 +6,7 @@ media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and 
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
 media-sound/cue2tracks 0.2.16: Bash script for split audio CD image files with cue sheet to tracks and write tags.
 media-sound/flaccl 0.3: CUDA-enabled FLAC encoder (former FlaCuda)
+net-fs/wdmrc 1.5.40: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42: Simple secure efficient FTP server by Bruce Guenter
 net-mail/queue-repair 0.9.0: A toolkit for dealing with the qmail queue directory structure
 net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
