@@ -1,0 +1,11 @@
+DEFINED_PHASES=install postinst
+DESCRIPTION=Service for net-fs/wdmrc
+EAPI=0
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=x86 amd64
+LICENSE=public-domain
+RDEPEND=runit-service/setupservices net-fs/wdmrc
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-wdmrc-1.0.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=7d4a7a9f55591eeade8147cc8a38403f
