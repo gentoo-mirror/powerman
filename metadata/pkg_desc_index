@@ -19,7 +19,7 @@ power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
 power-misc/powerutils 2.2.10: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.5: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
-power-misc/runit-scripts 1.5.0 1.5.1: Replacement for SysV init scripts to use with runit.
+power-misc/runit-scripts 1.5.0 1.5.1 1.6.0: Replacement for SysV init scripts to use with runit.
 runit-service/service-3proxy 1.0.2: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.1: Service for sys-power/acpid
 runit-service/service-adsl 1.0.1: Service for net-dialup/rp-pppoe
@@ -56,6 +56,6 @@ runit-service/service-x 1.1.0: Service for x11-base/xorg-x11
 runit-service/setupservices 1-r1: Setup system to use runit services
 sys-apps/ucspi-ssl 0.94-r2: Command-line tools for building SSL client-server applications.
 sys-power/upsmon-usb 9999: Powercom UPS monitoring (USB)
-sys-process/runit 2.1.1-r1: A UNIX init scheme with service supervision
+sys-process/runit 2.1.1-r1 2.1.2-r1: A UNIX init scheme with service supervision
 x11-misc/xse 2.1-r1: Command Line Interface to XSendEvent()
 x11-plugins/telegram-purple 9999: Adds support for Telegram to Pidgin, Adium, Finch and other Libpurple based messengers
