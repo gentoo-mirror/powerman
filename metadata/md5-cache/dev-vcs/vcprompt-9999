@@ -1,11 +1,11 @@
 DEFINED_PHASES=install prepare unpack
 DEPEND=dev-vcs/mercurial !<sys-devel/gettext-0.18.1.1-r3 || ( >=sys-devel/automake-1.15:1.15 ) >=sys-devel/autoconf-2.69 >=sys-devel/libtool-2.4
 DESCRIPTION=show info about the current working directory for various VCS for PS1
-EAPI=4
+EAPI=6
 HOMEPAGE=https://bitbucket.org/powerman/vcprompt
 KEYWORDS=~x86 ~amd64
 LICENSE=GPL-2
 SLOT=0
 _eclass_exported_funcs=src_unpack:mercurial src_prepare:- src_install:-
 _eclasses_=autotools	07e71b3b5690738ef7e8bc097077e00c	eutils	708f85bc1bf00876604e223fb56e062a	libtool	84763589a795fb127b537cac01e5359f	mercurial	66da6d1ccacd123e28d2c64821052a9a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=158e1cf00a8379f7ad5a895db845e7d7
+_md5_=0c9c0ba898b52911859b78938ff0ed8f
