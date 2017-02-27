@@ -1,10 +1,10 @@
 DEFINED_PHASES=install setup
 DESCRIPTION=Setup system to use runit services
-EAPI=0
+EAPI=6
 HOMEPAGE=http://powerman.name/
-KEYWORDS=x86 amd64
+KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_install:-
 _eclasses_=user	e10ccb95af96d45f86016fa982a949bb
-_md5_=4598963add4831c3f78e33c05de25663
+_md5_=9c70f166e51f772f896fb5e6d097d96d

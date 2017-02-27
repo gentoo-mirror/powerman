@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-dns/djbdns
+EAPI=6
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 net-dns/djbdns
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-djbdns-2.0.0.tgz
+_eclass_exported_funcs=pkg_postinst:- src_install:-
+_md5_=c8bee34d70e159680637356c222f4e02

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install preinst
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for www-servers/nginx
+EAPI=6
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 www-servers/nginx
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-nginx-2.0.0.tgz
+_eclass_exported_funcs=pkg_preinst:- src_install:-
+_md5_=00b2b0101de9efac3c38466bb19e776a

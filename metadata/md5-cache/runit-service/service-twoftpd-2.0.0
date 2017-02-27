@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-ftp/twoftpd
+EAPI=6
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 net-ftp/twoftpd
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-twoftpd-2.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=a4ed5118a43c6b9a41baa558110f975f

@@ -1,0 +1,12 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for app-emulation/vmware-workstation
+EAPI=6
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 app-emulation/vmware-workstation
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-vmware-2.0.0.tgz
+_eclass_exported_funcs=src_install:-
+_md5_=d30a587a96532fdc8dfdb1da736439c1
