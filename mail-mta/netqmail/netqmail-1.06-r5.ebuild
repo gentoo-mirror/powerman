@@ -1,4 +1,4 @@
-# Copyright 1999-2015 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 # $Id$
 
@@ -40,7 +40,7 @@ SRC_URI="mirror://qmail/${P}.tar.gz
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~mips ~ppc ~ppc64 ~x86"
+KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ppc ~ppc64 ~x86"
 IUSE="authcram gencertdaily highvolume libressl qmail-spp ssl vanilla"
 REQUIRED_USE='vanilla? ( !ssl !qmail-spp !highvolume )'
 RESTRICT="test"

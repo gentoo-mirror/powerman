@@ -1,6 +1,6 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 DESCRIPTION="Service for www-servers/apache-2"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
@@ -8,7 +8,7 @@ SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
@@ -56,4 +56,3 @@ pkg_postinst() {
 	chmod 600 /var/log/apache2/ssl_request_log
 	chown log:root /var/log/apache2/*/{lock,state,newstate,current} 2>/dev/null
 }
-

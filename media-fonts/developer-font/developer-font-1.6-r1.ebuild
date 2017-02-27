@@ -1,5 +1,6 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
+# $Id$
 
 EAPI="5"
 
@@ -10,7 +11,7 @@ HOMEPAGE="http://powerman.name/config/font.html"
 SRC_URI="http://powerman.name/download/font/${P}.tgz"
 LICENSE="GPL-2"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~hppa ~ia64 ~mips ~ppc ~ppc64 ~s390 ~sh ~sparc ~x86 ~x86-fbsd"
+KEYWORDS="~amd64 ~x86"
 IUSE="+psf raw +pcf inferno"
 
 DEPEND="dev-lang/perl
@@ -34,15 +35,16 @@ pkg_setup() {
 	font_pkg_setup
 }
 
-src_compile() {
-	# selfwritten configure script
-	./configure \
-		--prefix=/usr \
+src_configure() {
+	# custom configure-like script
+	econf \
 		--psfdir=/usr/share/consolefonts \
 		--acmdir=/usr/share/consoletrans \
 		--unidir=/usr/share/consoletrans \
 		--x11dir=${FONTDIR}
+}
 
+src_compile() {
 	if use psf; then emake psf txt || die; fi
 	if use raw; then emake raw || die; fi
 	if use pcf; then emake pcf || die; fi

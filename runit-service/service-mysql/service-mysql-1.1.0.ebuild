@@ -1,6 +1,6 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 DESCRIPTION="Service for dev-db/mysql"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
@@ -8,7 +8,7 @@ SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
@@ -34,7 +34,7 @@ pkg_postinst() {
 		ewarn "Old version of this service detected: /service/mysql-log"
 	fi
 
-	logs=$( egrep '^\s*(err-log|log-error)' /etc/mysql/my.cnf | 
+	logs=$( egrep '^\s*(err-log|log-error)' /etc/mysql/my.cnf |
 		sed 's,.*=\s*,,' | sort -u );
 	if [ "$logs" != "/dev/stdout" ]; then
 		ewarn "Please configure mysql logs to stdout. Example:"
@@ -44,4 +44,3 @@ pkg_postinst() {
 		ewarn "    log-error  = /dev/stdout"
 	fi
 }
-

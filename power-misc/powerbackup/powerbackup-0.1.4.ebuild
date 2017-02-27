@@ -1,6 +1,6 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 DESCRIPTION="Simple and flexible incremental backup"
 HOMEPAGE="http://powerman.name/soft/powerbackup.html"
@@ -8,7 +8,7 @@ SRC_URI="http://powerman.name/download/powerbackup/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND=""
@@ -23,4 +23,3 @@ src_install() {
 	insopts -m0400
 	doins etc/powerbackup/*.{pass,user}
 }
-

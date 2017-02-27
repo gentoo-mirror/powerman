@@ -4,16 +4,17 @@
 
 EAPI=6
 
-inherit git-r3 mono
+inherit git-r3 mono-env
 
 DESCRIPTION="WebDAV emulator for Mail.ru Cloud"
 HOMEPAGE="https://github.com/yar229/WebDavMailRuCloud"
+SRC_URI=""
 EGIT_REPO_URI="https://github.com/yar229/WebDavMailRuCloud"
 EGIT_COMMIT="${PV}"
 
 LICENSE="MIT"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="

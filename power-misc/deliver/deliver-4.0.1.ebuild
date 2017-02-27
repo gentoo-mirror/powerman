@@ -1,6 +1,6 @@
-# Copyright 1999-2005 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 DESCRIPTION="Control email delivery (for .qmail only)"
 HOMEPAGE="http://powerman.name/soft/deliver.html"
@@ -8,7 +8,7 @@ SRC_URI="http://powerman.name/download/deliver/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="x86 amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="mail-filter/normalizemime app-i18n/enca"
@@ -17,4 +17,3 @@ RDEPEND=""
 src_install() {
 	dobin deliver
 }
-

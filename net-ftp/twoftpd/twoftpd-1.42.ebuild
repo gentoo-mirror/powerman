@@ -1,6 +1,6 @@
-# Copyright 1999-2008 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: /var/cvsroot/gentoo-x86/net-ftp/twoftpd/twoftpd-1.21.ebuild,v 1.5 2008/01/25 23:03:22 bangert Exp $
+# $Id$
 
 inherit toolchain-funcs eutils
 
@@ -21,7 +21,7 @@ RDEPEND="sys-apps/ucspi-tcp
 		>=net-libs/cvm-0.90"
 
 src_compile() {
-	epatch ${FILESDIR}/FF.patch
+	epatch "${FILESDIR}"/FF.patch
 	echo "/usr/sbin" > conf-bin
 	echo "/usr/share/man" > conf-man
 	echo "$(tc-getCC) ${CFLAGS} -I/usr/include/bglibs" > conf-cc

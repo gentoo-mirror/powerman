@@ -1,9 +1,11 @@
-# Copyright 1999-2009 Gentoo Foundation
+# Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
-# $Header: $
+# $Id$
 
 EAPI=4
-inherit flag-o-matic eutils pax-utils
+MULTILIB_COMPAT=( abi_x86_32 )
+
+inherit flag-o-matic eutils pax-utils multilib-build
 
 DESCRIPTION="OS Inferno Fourth Edition"
 HOMEPAGE="https://bitbucket.org/inferno-os/inferno-os"
@@ -11,7 +13,7 @@ SRC_URI="http://www.vitanuova.com/dist/4e/inferno-20150328.tgz"
 
 LICENSE="GPL-2"
 SLOT=0
-KEYWORDS="~x86 ~amd64"
+KEYWORDS="-* ~x86 ~amd64"
 IUSE="X doc source re2 cjson ipv6"
 
 RDEPEND=""
@@ -19,16 +21,11 @@ RDEPEND=""
 DEPEND="${RDEPEND}
 	dev-vcs/mercurial
 	dev-vcs/git
-	re2? ( >=dev-libs/re2-0.2016.05.01[abi_x86_32] )
-	amd64? (
-		X? ( || (
-			(
-				x11-libs/libX11[abi_x86_32(-)]
-				x11-libs/libXext[abi_x86_32(-)]
-			)
-			app-emulation/emul-linux-x86-xlibs
-		) )
-    )
+	re2? ( >=dev-libs/re2-0.2016.05.01[${MULTILIB_USEDEP}] )
+	amd64? ( X? (
+		x11-libs/libX11[${MULTILIB_USEDEP}]
+		x11-libs/libXext[${MULTILIB_USEDEP}]
+	) )
 	"
 
 S="${WORKDIR}/${PN}"
@@ -40,7 +37,7 @@ CJSON_REV=0.3.3
 src_unpack() {
 	unpack inferno-20150328.tgz
 	cd "${S}"
-	hg revert --no-backup $(hg status | grep ^M | sed 's/^M //')
+	hg revert --no-backup $(hg status | grep ^M | cut -c 3-)
 	hg pull	-r $INFERNO_REV	|| die
 	hg update				|| die
 	rm -rf .hg
@@ -64,7 +61,9 @@ src_unpack() {
 		rm -rf tmp/inferno-cjson
 		./patch.cjson
 	fi
+}
 
+src_prepare() {
 	epatch "${FILESDIR}/issue-122-csendalt.patch"
 	epatch "${FILESDIR}/issue-147-wait.patch"
 	epatch "${FILESDIR}/issue-271-microsec.patch"
@@ -76,7 +75,7 @@ src_compile() {
 	export INFERNO_ROOT=$(pwd)
 	perl -i -pe 's/^ROOT=.*/ROOT=$ENV{INFERNO_ROOT}/m' mkconfig
 	perl -i -pe 's/^SYSHOST=.*/SYSHOST=Linux/m' mkconfig || die
-	perl -i -pe 's/^OBJTYPE=.*/OBJTYPE=386/m'   mkconfig || die
+	perl -i -pe 's/^OBJTYPE=.*/OBJTYPE=386/m'	mkconfig || die
 
 	export PATH=$INFERNO_ROOT/Linux/386/bin:$PATH
 	sh makemk.sh			|| die
@@ -125,7 +124,6 @@ src_install() {
 	# Setup the path environment
 	doenvd "${FILESDIR}/20inferno"
 
-    # We don't compress to keep support for Inferno's man
-    docompress -x /usr/inferno/man
+	# We don't compress to keep support for Inferno's man
+	docompress -x /usr/inferno/man
 }
-
