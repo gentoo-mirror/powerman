@@ -16,7 +16,7 @@ power-misc/powerutils 2.2.10: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.5: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
 power-misc/runit-scripts 1.5.0 1.5.1 1.6.0: Replacement for SysV init scripts to use with runit.
-runit-service/service-3proxy 1.0.2 2.0.0: Service for net-proxy/3proxy
+runit-service/service-3proxy 1.0.2 2.1.0: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.1 2.0.0: Service for sys-power/acpid
 runit-service/service-adsl 1.0.1 2.0.0: Service for net-dialup/rp-pppoe
 runit-service/service-agetty 1.0.2 2.0.0: Service for agetty
@@ -26,7 +26,7 @@ runit-service/service-consolekit 1.0.0 2.0.0: Service for sys-auth/consolekit
 runit-service/service-cups 1.0.0 2.0.0: Service for net-print/cups
 runit-service/service-dbus 1.0.3 2.0.0: Service for sys-apps/dbus
 runit-service/service-dcron 1.0.0 2.0.0: Service for sys-process/dcron
-runit-service/service-dhcpd 1.1.2-r1 2.0.0: Service for net-misc/dhcp
+runit-service/service-dhcpd 1.1.2-r1 2.1.0: Service for net-misc/dhcp
 runit-service/service-djbdns 1.0.1 2.0.0: Service for net-dns/djbdns
 runit-service/service-docker 1.1.0 2.0.0: Service for app-emulation/docker
 runit-service/service-expirelog 1.0.0 2.0.0: Service for cleaning runsvdir's title
@@ -43,7 +43,7 @@ runit-service/service-samba 1.0.1 2.0.0: Service for net-fs/samba
 runit-service/service-smartd 1.0.0 2.0.0: Service for sys-apps/smartmontools
 runit-service/service-socklog 1.0.1 2.0.0: Service for app-admin/socklog
 runit-service/service-ssh 1.0.0 2.0.0: Service for net-misc/openssh
-runit-service/service-tftpd 1.0.0 2.0.0: Service for net-ftp/tftp-hpa
+runit-service/service-tftpd 1.0.0 2.1.0: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.0: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-wdmrc 1.0.0 2.0.0: Service for net-fs/wdmrc
