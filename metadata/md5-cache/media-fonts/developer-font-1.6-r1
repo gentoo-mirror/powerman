@@ -1,14 +1,15 @@
 DEFINED_PHASES=compile configure install postinst postrm setup
-DEPEND=dev-lang/perl sys-apps/gawk app-arch/gzip pcf? ( x11-apps/bdftopcf ) inferno? ( dev-inferno/inferno ) X? ( x11-apps/mkfontdir media-fonts/encodings )
+DEPEND=dev-lang/perl sys-apps/gawk app-arch/gzip pcf? ( x11-apps/bdftopcf ) X? ( x11-apps/mkfontdir media-fonts/encodings )
 DESCRIPTION=Another clean fixed font for the console and X11
-EAPI=5
+EAPI=6
 HOMEPAGE=http://powerman.name/config/font.html
 IUSE=+psf raw +pcf inferno X
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
-RDEPEND=psf? ( >=media-fonts/terminus-font-4.39-r1[psf] )
+RDEPEND=psf? ( media-fonts/terminus-font[psf] ) inferno? ( dev-inferno/inferno )
+REQUIRED_USE=X? ( pcf )
 SLOT=0
 SRC_URI=http://powerman.name/download/font/developer-font-1.6.tgz
-_eclass_exported_funcs=pkg_postrm:font pkg_postinst:font pkg_setup:- src_configure:- src_compile:- src_install:-
+_eclass_exported_funcs=pkg_postrm:font pkg_postinst:font pkg_setup:font src_configure:- src_compile:- src_install:-
 _eclasses_=eutils	708f85bc1bf00876604e223fb56e062a	font	cd7790315ca5b8c505e1e0513df6acce	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=e3c512dbd852b79467c3617160a0fc2f
+_md5_=f8a78e687b18bdf539480095e255384c
