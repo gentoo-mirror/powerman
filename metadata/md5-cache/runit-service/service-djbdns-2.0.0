@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-dns/djbdns
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-djbdns-2.0.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=c8bee34d70e159680637356c222f4e02
+_md5_=991c20f365e4e44ff9c566626af06ee8
