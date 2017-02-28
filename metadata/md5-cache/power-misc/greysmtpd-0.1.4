@@ -1,11 +1,12 @@
 DEFINED_PHASES=install postinst
-DEPEND=virtual/qmail net-libs/adns
+DEPEND=virtual/qmail
 DESCRIPTION=tcpserver-compatible anti-spam (greylisting) smtpd
-EAPI=0
+EAPI=6
 HOMEPAGE=http://powerman.name/soft/greysmtpd.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
+RDEPEND=virtual/qmail net-libs/adns
 SLOT=0
 SRC_URI=http://powerman.name/download/greysmtpd/greysmtpd-0.1.4.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=68541e3e77175040d03620ec4739114c
+_md5_=382af9d8fa221a3f52d8a2bba60ba4a8

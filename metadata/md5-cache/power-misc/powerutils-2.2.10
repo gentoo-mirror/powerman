@@ -1,10 +1,10 @@
 DEFINED_PHASES=install
 DESCRIPTION=A bundle of useful small utilities
-EAPI=0
+EAPI=6
 HOMEPAGE=http://powerman.name/soft/powerutils.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
 SRC_URI=http://powerman.name/download/powerutils/powerutils-2.2.10.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=e20481d0f739683e608cd56e3307cca4
+_md5_=23c0f601060cfa387a3c4565d6636467
