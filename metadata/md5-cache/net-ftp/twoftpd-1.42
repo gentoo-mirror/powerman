@@ -1,13 +1,13 @@
-DEFINED_PHASES=compile install
+DEFINED_PHASES=configure install prepare
 DEPEND=virtual/libc >=dev-libs/bglibs-1.103 >=net-libs/cvm-0.90
 DESCRIPTION=Simple secure efficient FTP server by Bruce Guenter
-EAPI=0
+EAPI=6
 HOMEPAGE=http://untroubled.org/twoftpd/
-KEYWORDS=~x86 ~amd64
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=sys-apps/ucspi-tcp sys-process/daemontools >=net-libs/cvm-0.90
 SLOT=0
 SRC_URI=http://untroubled.org/twoftpd/archive/twoftpd-1.42.tar.gz
-_eclass_exported_funcs=src_compile:- src_install:-
-_eclasses_=eutils	708f85bc1bf00876604e223fb56e062a	multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
-_md5_=e1d4db00fdc6db743ff96c72daffc14a
+_eclass_exported_funcs=src_prepare:- src_configure:- src_install:-
+_eclasses_=multilib	165fc17c38d1b11dac2008280dab6e80	toolchain-funcs	1b1da0c45c555989dc5d832b54880783
+_md5_=661ddb43953acd6e18c66eecd45b83a7

@@ -3,10 +3,10 @@ DESCRIPTION=Tool for splitting audio CD image to tracks with cue sheet info.
 EAPI=6
 HOMEPAGE=http://code.google.com/p/cue2tracks/
 IUSE=flake flaccl mac tta shorten wavpack mp3 aac vorbis
-KEYWORDS=~x86 ~amd64
+KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=media-sound/shntool app-shells/bash media-libs/flac app-cdr/cuetools flake? ( media-sound/flake ) flaccl? ( >=media-sound/flaccl-2 ) mac? ( media-sound/mac media-sound/apetag ) tta? ( media-sound/ttaenc ) shorten? ( media-sound/shorten ) wavpack? ( media-sound/wavpack media-sound/apetag ) mp3? ( media-sound/lame media-sound/id3v2 ) vorbis? ( media-sound/vorbis-tools ) aac? ( media-libs/faac media-libs/faad2 )
 SLOT=0
 SRC_URI=http://cue2tracks.googlecode.com/files/cue2tracks-0.2.16.tar.gz
 _eclass_exported_funcs=src_prepare:- src_install:-
-_md5_=5f12dbcef51f67e648a1e60794c91d23
+_md5_=f1bf36e28585b5969d97aeb4024e2820
