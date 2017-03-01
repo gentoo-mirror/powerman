@@ -23,6 +23,7 @@ runit-service/service-agetty 1.0.2 2.0.0: Service for agetty
 runit-service/service-apache2 1.1.0 2.0.0: Service for www-servers/apache-2
 runit-service/service-atd 1.0.0 2.0.0: Service for sys-process/at
 runit-service/service-consolekit 1.0.0 2.0.0: Service for sys-auth/consolekit
+runit-service/service-consul 2.0.0: Service for app-admin/consul
 runit-service/service-cups 1.0.0 2.0.0: Service for net-print/cups
 runit-service/service-dbus 1.0.3 2.0.0: Service for sys-apps/dbus
 runit-service/service-dcron 1.0.0 2.0.0: Service for sys-process/dcron
