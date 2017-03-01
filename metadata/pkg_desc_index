@@ -32,6 +32,7 @@ runit-service/service-djbdns 1.0.1 2.0.0: Service for net-dns/djbdns
 runit-service/service-docker 1.1.0 2.0.0: Service for app-emulation/docker
 runit-service/service-expirelog 1.0.0 2.0.0: Service for cleaning runsvdir's title
 runit-service/service-gpm 1.0.0 2.0.0: Service for sys-libs/gpm
+runit-service/service-grafana 2.0.0: Service for www-apps/grafana
 runit-service/service-i2p 1.0.0 2.0.0: Service for net-p2p/i2p
 runit-service/service-log-all 1.0.0 2.0.0: Catch-all log with most important data from all other logs
 runit-service/service-mcelog 1.0.0 2.0.0: Service for app-admin/mcelog
