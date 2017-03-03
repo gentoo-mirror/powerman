@@ -5,6 +5,7 @@ media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and 
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
 media-sound/cue2tracks 0.2.16-r1: Tool for splitting audio CD image to tracks with cue sheet info.
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
+net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
 net-fs/wdmrc 1.5.40: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42: Simple secure efficient FTP server by Bruce Guenter
 net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
@@ -20,6 +21,7 @@ runit-service/service-3proxy 1.0.2 2.1.0: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.1 2.0.0: Service for sys-power/acpid
 runit-service/service-adsl 1.0.1 2.0.0: Service for net-dialup/rp-pppoe
 runit-service/service-agetty 1.0.2 2.0.0: Service for agetty
+runit-service/service-alertmanager 2.0.0: Service for net-analyzer/alertmanager
 runit-service/service-apache2 1.1.0 2.0.0: Service for www-servers/apache-2
 runit-service/service-atd 1.0.0 2.0.0: Service for sys-process/at
 runit-service/service-consolekit 1.0.0 2.0.0: Service for sys-auth/consolekit
@@ -38,7 +40,7 @@ runit-service/service-log-all 1.0.0 2.0.0: Catch-all log with most important dat
 runit-service/service-mcelog 1.0.0 2.0.0: Service for app-admin/mcelog
 runit-service/service-mysql 1.1.0 2.0.0: Service for dev-db/mysql
 runit-service/service-nginx 1.0.0 2.0.0: Service for www-servers/nginx
-runit-service/service-node_exporter 2.0.0: Service for net-analyzer/prometheus-node_exporter
+runit-service/service-node_exporter 2.0.1: Service for net-analyzer/prometheus-node_exporter
 runit-service/service-notify 1.2.6 2.0.0: Process system log on-the-fly, detect events and run actions
 runit-service/service-nut 1.0.1 2.0.0: Service for sys-power/nut
 runit-service/service-prometheus 2.0.0: Service for net-analyzer/prometheus

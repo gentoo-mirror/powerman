@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 www-apps/grafana-bin
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-grafana-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=19e5a8aa9f673c31afdbd7c8f392e735
+_md5_=ee7b8ff00f140ecbf66bea23a8cca774

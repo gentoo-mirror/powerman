@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-misc/socat net-ftp/tftp-hpa
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-tftpd-2.1.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=9c65c0533f1323c74ef2b75410d5b140
+_md5_=b864889d108f26df0f344aaba026bffe

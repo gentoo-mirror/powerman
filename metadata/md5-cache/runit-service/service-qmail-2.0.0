@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/ucspi-ssl virtual/qmail
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-qmail-2.0.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=a4b9cfdc149265f35d88bef6a2bc8952
+_md5_=23f1813e44050df16ff4f769ae7a143a

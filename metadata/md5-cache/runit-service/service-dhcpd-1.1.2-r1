@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices net-misc/socat net-misc/dhcp
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-dhcpd-1.1.2.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=7efd13176267c70494c1ec82907a4f00
+_md5_=57f06bb12a60d6077c733701ed744087

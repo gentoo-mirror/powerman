@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-p2p/i2p
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-i2p-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=e96905dca52469a5b8a96fef5ba842eb
+_md5_=f77d59de4483bccdbc34c541ea92d0b4

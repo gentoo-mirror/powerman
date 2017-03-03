@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-log-all-2.0.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=265ace1a3156c346b32d8b14dba45b97
+_md5_=4edbc608d6fce9495956c9cbb621da7c

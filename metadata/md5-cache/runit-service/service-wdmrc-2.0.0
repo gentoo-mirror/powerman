@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-fs/wdmrc
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-wdmrc-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=95820fd7d4cea1531bcc8a7ce1766974
+_md5_=e3325ddfa74ab61481f7612cb47a8fa0

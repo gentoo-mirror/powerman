@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-expirelog-1.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=27b0689dcf3e425bc6d3cee90403923f
+_md5_=8a13d781f88a819dc30905686db57145

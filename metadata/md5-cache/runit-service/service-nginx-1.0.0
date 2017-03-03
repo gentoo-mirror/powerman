@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices www-servers/nginx
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-nginx-1.0.0.tgz
 _eclass_exported_funcs=pkg_preinst:- pkg_postinst:- src_install:-
-_md5_=d135baeb29cc8c65c61fef5e42ce2254
+_md5_=0ee079842363b0027bbbc10a4bf6e76b

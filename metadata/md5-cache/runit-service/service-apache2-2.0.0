@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 >=www-servers/apache-2
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-apache2-2.0.0.tgz
 _eclass_exported_funcs=pkg_preinst:- src_install:-
-_md5_=78c05e65e41f4ae18d24ce46cc586510
+_md5_=c9b2b900e4cf6a8554de1701c7f811fa

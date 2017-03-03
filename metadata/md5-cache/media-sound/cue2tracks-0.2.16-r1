@@ -9,4 +9,4 @@ RDEPEND=media-sound/shntool app-shells/bash media-libs/flac app-cdr/cuetools fla
 SLOT=0
 SRC_URI=http://cue2tracks.googlecode.com/files/cue2tracks-0.2.16.tar.gz
 _eclass_exported_funcs=src_prepare:- src_install:-
-_md5_=f1bf36e28585b5969d97aeb4024e2820
+_md5_=16b768ab394686c2bb7ceb9a89cb2984

@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-ftp/twoftpd
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-twoftpd-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=a4ed5118a43c6b9a41baa558110f975f
+_md5_=c90435ba357953ad591730bb6ee33a80

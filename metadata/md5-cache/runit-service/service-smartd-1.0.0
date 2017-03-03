@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices sys-apps/smartmontools
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-smartd-1.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=45963c61ee254e2314c698f3683a9f3f
+_md5_=6f58a17512d65b609f61a9881495d7a3

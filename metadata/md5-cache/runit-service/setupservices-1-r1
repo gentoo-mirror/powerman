@@ -7,4 +7,4 @@ LICENSE=public-domain
 SLOT=0
 _eclass_exported_funcs=pkg_setup:- src_install:-
 _eclasses_=user	e4b567c44272a719fabf53f0f885d3f7
-_md5_=9c70f166e51f772f896fb5e6d097d96d
+_md5_=564b15e34978783b8bf076126d00b7a0

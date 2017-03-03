@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices net-misc/openssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-ssh-1.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=81a4b6cc96032e5d10f9605d236613fb
+_md5_=e38d8d056a1ff90bdc8ecdc101c7d9b0

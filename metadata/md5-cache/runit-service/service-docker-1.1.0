@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices >=app-emulation/docker-1.11.0
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-docker-1.1.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=a5f9b010965200df7d38bfaa7f31bfac
+_md5_=c74b7f905680cb6c6ddf85ccce4bc930

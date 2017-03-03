@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-fs/samba
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-samba-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=3cc8074fd81aaa748f5eb2eb2d815648
+_md5_=880c941ca68164b64c4846452b1a2ead

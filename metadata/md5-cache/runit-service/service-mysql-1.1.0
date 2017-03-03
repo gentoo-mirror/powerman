@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices dev-db/mysql
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-mysql-1.1.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=ccdcf95dca841c59bb14de416486b068
+_md5_=c5091ba05bd738d1b5a37cf22e3980f6

@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices sys-auth/consolekit
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-consolekit-1.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=9d6666c703b9b60fe7d317d76703876a
+_md5_=a6d47663f0611326168a688095829b08

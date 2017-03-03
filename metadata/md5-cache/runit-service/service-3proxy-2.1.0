@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-proxy/3proxy
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-3proxy-2.1.0.tgz
 _eclass_exported_funcs=pkg_postinst:- src_install:-
-_md5_=4a4c1008caa14861d97a74d61805982f
+_md5_=bf4cf47db0248d5507a6f3b3187a123e

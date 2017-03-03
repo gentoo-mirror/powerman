@@ -8,4 +8,4 @@ RDEPEND=runit-service/setupservices runit-service/service-agetty runit-service/s
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-x-1.1.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=0d44a5217d62c4676a0db84ad7739f83
+_md5_=e2567b29ed91d2cf022b850f31808f2f

@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 sys-libs/gpm
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-gpm-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=490ff141cac2460814f326016c1d18d1
+_md5_=92ffe44d7b5e281bc50a0a2a098369d1

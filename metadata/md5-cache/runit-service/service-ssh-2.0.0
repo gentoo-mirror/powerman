@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 net-misc/openssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-ssh-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=b224eac334b642049885f7cd9979611d
+_md5_=578663f1f1eb41fd4797a392a064ec37

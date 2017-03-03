@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/consul
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-consul-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=60ff5ecead6daebec152ad59447c52ac
+_md5_=51fc672e99d4cd01aed62839b87eee94

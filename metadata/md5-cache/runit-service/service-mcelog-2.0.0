@@ -9,4 +9,4 @@ RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/mcelog
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-mcelog-2.0.0.tgz
 _eclass_exported_funcs=src_install:-
-_md5_=30d12634d973534780e39774a807636c
+_md5_=a85759f512c8dca06aab46283c97aba7
