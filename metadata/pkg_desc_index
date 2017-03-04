@@ -57,7 +57,7 @@ runit-service/service-tftpd 1.0.0 2.1.0: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.0: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-wdmrc 1.0.0 2.0.0: Service for net-fs/wdmrc
-runit-service/service-x 1.1.0 2.0.0: Service for Xorg
+runit-service/service-x 1.1.0 2.0.1: Service for Xorg
 runit-service/setupservices 1-r1: Setup system to use runit services
 sys-process/runit 2.1.1-r1 2.1.2-r1: A UNIX init scheme with service supervision
 x11-misc/xse 2.1-r2: Command Line Interface to XSendEvent()
