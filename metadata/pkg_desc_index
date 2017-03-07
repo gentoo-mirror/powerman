@@ -32,7 +32,7 @@ runit-service/service-cups 1.0.0 2.0.0: Service for net-print/cups
 runit-service/service-dbus 1.0.3 2.0.0: Service for sys-apps/dbus
 runit-service/service-dcron 1.0.0 2.0.0: Service for sys-process/dcron
 runit-service/service-dhcpd 1.1.2-r1 2.1.0: Service for net-misc/dhcp
-runit-service/service-djbdns 1.0.1 2.0.0: Service for net-dns/djbdns
+runit-service/service-djbdns 1.0.1 2.0.1: Service for net-dns/djbdns
 runit-service/service-docker 1.1.0 2.0.0: Service for app-emulation/docker
 runit-service/service-expirelog 1.0.0 2.0.0: Service for cleaning runsvdir's title
 runit-service/service-gpm 1.0.0 2.0.0: Service for sys-libs/gpm
@@ -53,7 +53,7 @@ runit-service/service-samba 1.0.1 2.0.0: Service for net-fs/samba
 runit-service/service-smartd 1.0.0 2.0.0: Service for sys-apps/smartmontools
 runit-service/service-socklog 1.0.1 2.0.0: Service for app-admin/socklog
 runit-service/service-ssh 1.0.0 2.0.0: Service for net-misc/openssh
-runit-service/service-tftpd 1.0.0 2.1.0: Service for net-ftp/tftp-hpa
+runit-service/service-tftpd 1.0.0 2.1.1: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.0: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-wdmrc 1.0.0 2.0.0: Service for net-fs/wdmrc
