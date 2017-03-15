@@ -3,6 +3,7 @@ dev-vcs/vcprompt 9999: show info about the current working directory for various
 mail-mta/netqmail 1.06-r4: qmail -- a secure, reliable, efficient, simple message transfer agent
 media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
+media-sound/clementine 9999: A modern music player and library organizer based on Amarok 1.4 and Qt4
 media-sound/cue2tracks 0.2.16-r1: Tool for splitting audio CD image to tracks with cue sheet info.
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
