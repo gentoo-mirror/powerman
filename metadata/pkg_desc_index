@@ -11,7 +11,7 @@ media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
 net-analyzer/process-exporter 0.1.0: Prometheus exporter that mines /proc to report on selected processes
 net-analyzer/pushgateway 0.3.1: Allow ephemeral and batch jobs to expose their metrics to Prometheus
-net-fs/wdmrc 1.5.40: WebDAV emulator for Mail.ru Cloud
+net-fs/wdmrc 1.5.40 1.5.59: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42: Simple secure efficient FTP server by Bruce Guenter
 net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
 power-misc/addgpginfo 0.3.0: add GnuPG info into email headers while delivering
