@@ -54,6 +54,8 @@ runit-service/service-process-exporter 2.0.0: Service for net-analyzer/process-e
 runit-service/service-prometheus 2.0.0: Service for net-analyzer/prometheus
 runit-service/service-pushgateway 2.0.0: Service for net-analyzer/pushgateway
 runit-service/service-qmail 1.2.0 2.0.0: Service for virtual/qmail
+runit-service/service-revssh 2.0.0: Service for reverse ssh
+runit-service/service-rtorrent 2.0.0: Service for net-p2p/rtorrent
 runit-service/service-samba 1.0.1 2.0.0: Service for net-fs/samba
 runit-service/service-smartd 1.0.0 2.0.0: Service for sys-apps/smartmontools
 runit-service/service-socklog 1.0.1 2.0.0: Service for app-admin/socklog
