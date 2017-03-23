@@ -14,7 +14,7 @@ net-analyzer/pushgateway 0.3.1: Allow ephemeral and batch jobs to expose their m
 net-fs/wdmrc 1.5.40 1.5.59: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42: Simple secure efficient FTP server by Bruce Guenter
 net-p2p/rtorrent 0.9.6: BitTorrent Client using libtorrent
-power-misc/addgpginfo 0.3.0: add GnuPG info into email headers while delivering
+power-misc/addgpginfo 0.3.0 0.4.0: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.1.4: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
