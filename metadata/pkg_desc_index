@@ -1,7 +1,5 @@
 dev-inferno/inferno 20150330-r2: OS Inferno Fourth Edition
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
-kde-apps/k3b 9999: Full-featured burning and ripping application based on KDE Frameworks
-kde-apps/libkcddb 9999: KDE library for CDDB
 mail-mta/netqmail 1.06-r4: qmail -- a secure, reliable, efficient, simple message transfer agent
 media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
