@@ -10,4 +10,4 @@ RDEPEND=sys-devel/gettext dev-libs/libgcrypt:0/20 webp? ( media-libs/libwebp ) n
 SLOT=0
 _eclass_exported_funcs=src_unpack:git-r3 src_configure:-
 _eclasses_=git-r3	cbafa3261c37c7e3af44bb16a34ea390
-_md5_=6068fd289a8a24e5b200019bd34d1234
+_md5_=f71ece417ce484dc639dfcaec87b42cc
