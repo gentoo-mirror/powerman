@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/service-notify
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-log-all-1.0.0.tgz
-_eclass_exported_funcs=pkg_postinst:- src_install:-
 _md5_=c4344d6c3131413de6918538dbd41958

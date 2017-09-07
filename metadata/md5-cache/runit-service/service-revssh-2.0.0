@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 virtual/ssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-revssh-2.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=9d908e1a50df273ac8ce2bd488ea7c90

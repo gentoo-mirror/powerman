@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/setupservices
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-i2p-1.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=850be60d0e53e8a5b6e0b95ba6906368

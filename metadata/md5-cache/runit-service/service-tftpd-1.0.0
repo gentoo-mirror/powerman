@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/setupservices net-misc/socat net-ftp/tftp-hpa
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-tftpd-1.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=55b59fb9d45e65149c2281ab4a51b5e2

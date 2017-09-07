@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 dev-db/mysql
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-mysql-2.0.0.tgz
-_eclass_exported_funcs=pkg_postinst:- src_install:-
 _md5_=d497d6f9e36acffd65a73806f584b155

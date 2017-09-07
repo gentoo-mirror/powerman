@@ -8,5 +8,4 @@ LICENSE=GPL-2
 RDEPEND=media-sound/shntool app-shells/bash media-libs/flac app-cdr/cuetools flake? ( media-sound/flake ) flaccl? ( >=media-sound/flaccl-2 ) mac? ( media-sound/mac media-sound/apetag ) tta? ( media-sound/ttaenc ) shorten? ( media-sound/shorten ) wavpack? ( media-sound/wavpack media-sound/apetag ) mp3? ( media-sound/lame media-sound/id3v2 ) vorbis? ( media-sound/vorbis-tools ) aac? ( media-libs/faac media-libs/faad2 )
 SLOT=0
 SRC_URI=http://cue2tracks.googlecode.com/files/cue2tracks-0.2.16.tar.gz
-_eclass_exported_funcs=src_prepare:- src_install:-
 _md5_=16b768ab394686c2bb7ceb9a89cb2984

@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/setupservices app-admin/mcelog
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-mcelog-1.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=66662355549c384d0f01b75c26241c65

@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/dbus
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-dbus-2.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=fdb0a77d23b387d8af046e67bb7bde55

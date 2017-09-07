@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/setupservices app-emulation/vmware-workstation
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-vmware-1.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=0a58903250501ed52d2bed7cd242f37d

@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/smartmontools
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-smartd-2.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=7d14594e531d1317d9c7ee3cf74f6c7b

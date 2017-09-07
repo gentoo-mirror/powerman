@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 runit-service/service-x app-admin/conky
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-conky-2.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=56b1f43f3ec74878ac1149c7f1642a88

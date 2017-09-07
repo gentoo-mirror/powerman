@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-misc/socat net-misc/dhcp
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-dhcpd-2.1.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=1e4653fb2e68493d721742d87b9fa549

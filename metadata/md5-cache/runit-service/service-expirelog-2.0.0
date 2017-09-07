@@ -8,5 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-expirelog-2.0.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=d4c6030dc910a796fe170ece2e8a66fc

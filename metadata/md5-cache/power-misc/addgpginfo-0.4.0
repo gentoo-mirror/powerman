@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=>=app-crypt/gnupg-2.1
 SLOT=0
 SRC_URI=http://powerman.name/download/addgpginfo/addgpginfo-0.4.0.tgz
-_eclass_exported_funcs=src_install:-
 _md5_=663c54627dea61d5e554997faea0e433

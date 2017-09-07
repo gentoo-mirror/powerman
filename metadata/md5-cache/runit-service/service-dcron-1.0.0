@@ -7,5 +7,4 @@ LICENSE=public-domain
 RDEPEND=runit-service/setupservices sys-process/dcron
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-dcron-1.0.0.tgz
-_eclass_exported_funcs=pkg_postinst:- src_install:-
 _md5_=3c2bccd4413ae04efbcaeb4c4c820054
