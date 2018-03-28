@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
-DESCRIPTION=Service for net-analyzer/prometheus
+DESCRIPTION=Service for app-metrics/prometheus
 EAPI=6
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64
 LICENSE=public-domain
-RDEPEND=>=sys-process/runit-2.1.2-r1 net-analyzer/prometheus
+RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/prometheus
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-prometheus-2.0.0.tgz
-_md5_=233b33ba477edd6ee51d24e13bfeea25
+_md5_=c2a69ec14ee61646efde490be4829f69
