@@ -5,5 +5,5 @@ HOMEPAGE=http://powerman.name/soft/powerutils.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
-SRC_URI=http://powerman.name/download/powerutils/powerutils-2.2.12.tgz
-_md5_=a54a4b2573596696b89002dad6d1314c
+SRC_URI=http://powerman.name/download/powerutils/powerutils-2.2.13.tgz
+_md5_=4a654bfd68db13aeceeb0d70ea594941
