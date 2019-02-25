@@ -5,5 +5,5 @@ HOMEPAGE=http://powerman.name/
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
-_eclasses_=user	8bc2845510e2109af75e3eeac607ec81
+_eclasses_=user	8bd74731cafdcdad8f7a63637302e073
 _md5_=17b39c09b7eec8109e4da6ce32bc9658
