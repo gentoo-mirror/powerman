@@ -1,3 +1,4 @@
+app-crypt/keybase-bin 4.4.1_p20190910185008: Client for keybase.io (binary version with GUI)
 app-emulation/virtualbox-modules 5.1.36 5.1.38 5.2.14 5.2.16 5.2.18: Kernel Modules for Virtualbox
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
