@@ -5,6 +5,9 @@
 app-emulation/virtualbox-modules:pax_kernel - Apply patch needed for pax enabled kernels
 dev-inferno/inferno:cjson - Add fast JSON tokenizer module for Limbo.
 dev-inferno/inferno:re2 - Enable support for dev-libs/re2.
+mail-mta/netqmail:authcram - Enable AUTHCRAM support
+mail-mta/netqmail:gencertdaily - Generate SSL certificates daily instead of hourly
+mail-mta/netqmail:highvolume - Prepare netqmail for high volume servers
 media-fonts/developer-font:inferno - Install fonts for OS Inferno.
 media-fonts/developer-font:pcf - Install Portable Compiled Font (required for X11).
 media-fonts/developer-font:psf - Install PC Screen Font with unicode data (for linux console).
