@@ -1,5 +1,4 @@
-app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732: Client for keybase.io (binary version with GUI)
-app-emulation/virtualbox-modules 5.1.36 5.1.38 5.2.14 5.2.16 5.2.18: Kernel Modules for Virtualbox
+app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501: Client for keybase.io (binary version with GUI)
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
 mail-mta/netqmail 1.06-r9: qmail -- a secure, reliable, efficient, simple message transfer agent
@@ -13,7 +12,7 @@ net-analyzer/process-exporter 0.1.0: Prometheus exporter that mines /proc to rep
 net-analyzer/pushgateway 0.4.0: Allow ephemeral and batch jobs to expose their metrics to Prometheus
 net-fs/wdmrc 1.5.40 1.5.59: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
-net-im/zoom-bin 2.7.162522.0121-r1 2.8.183302.0415: Video conferencing and web conferencing service
+net-im/zoom-bin 2.7.162522.0121-r1 2.8.183302.0415 3.0.309708.1027: Video conferencing and web conferencing service
 net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
 net-p2p/rtorrent 0.9.6 0.9.6-r1: BitTorrent Client using libtorrent
 power-misc/addgpginfo 0.3.0 0.4.0: add GnuPG info into email headers while delivering
