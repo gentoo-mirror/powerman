@@ -1,0 +1,12 @@
+DEFINED_PHASES=install postinst postrm prepare unpack
+DESCRIPTION=Client for keybase.io (binary version with GUI)
+EAPI=7
+HOMEPAGE=https://keybase.io/
+KEYWORDS=-* ~amd64 ~x86
+LICENSE=BSD
+RDEPEND=app-crypt/gnupg !app-crypt/kbfs !app-crypt/keybase
+RESTRICT=strip
+SLOT=0
+SRC_URI=amd64? ( https://prerelease.keybase.io/linux_binaries/deb/keybase_5.2.0-20200130211428.cf82db8320_amd64.deb ) x86? ( https://prerelease.keybase.io/linux_binaries/deb/keybase_5.2.0-20200130211428.cf82db8320_i386.deb )
+_eclasses_=unpacker	3cd8bad0d31e525cd26be1bfa4e61631	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_md5_=1e8edb403e234deb29037947d11d8ab7
