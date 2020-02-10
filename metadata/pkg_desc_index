@@ -1,5 +1,6 @@
 app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428: Client for keybase.io (binary version with GUI)
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
+dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Net::DNS::Async
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
 media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
@@ -16,7 +17,7 @@ net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication 
 net-p2p/rtorrent 0.9.6 0.9.6-r1: BitTorrent Client using libtorrent
 power-misc/addgpginfo 0.3.0 0.4.0: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
-power-misc/greysmtpd 0.1.4: tcpserver-compatible anti-spam (greylisting) smtpd
+power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
 power-misc/powerutils 2.2.13: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.6: Watchdogs for system monitoring
