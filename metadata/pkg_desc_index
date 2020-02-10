@@ -10,11 +10,9 @@ media-video/vidcutter 6.0.0 9999: FFmpeg-based simple video cutter & joiner with
 net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
 net-analyzer/process-exporter 0.1.0: Prometheus exporter that mines /proc to report on selected processes
 net-analyzer/pushgateway 0.4.0: Allow ephemeral and batch jobs to expose their metrics to Prometheus
-net-fs/wdmrc 1.5.40 1.5.59: WebDAV emulator for Mail.ru Cloud
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
 net-im/zoom-bin 2.7.162522.0121-r1 2.8.183302.0415 3.0.309708.1027: Video conferencing and web conferencing service
 net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
-net-p2p/rtorrent 0.9.6 0.9.6-r1: BitTorrent Client using libtorrent
 power-misc/addgpginfo 0.3.0 0.4.0: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
@@ -65,7 +63,6 @@ runit-service/service-ssh 1.0.0 2.0.0: Service for net-misc/openssh
 runit-service/service-tftpd 1.0.0 2.1.1: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.0: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
-runit-service/service-wdmrc 1.0.0 2.0.1: Service for net-fs/wdmrc
 runit-service/service-x 1.1.0 2.1.0: Service for Xorg
 runit-service/setupservices 1-r2: Setup system to use runit services
 sys-libs/wcwidth-icons 0.2.1-r1 0.2.2: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
