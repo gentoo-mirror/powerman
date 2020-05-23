@@ -15,7 +15,7 @@ net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
 net-im/zoom-bin 2.7.162522.0121-r1 2.8.183302.0415 3.0.309708.1027: Video conferencing and web conferencing service
 net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
 net-mail/queue-repair 0.9.0-r2: A toolkit for dealing with the qmail queue directory structure
-power-misc/addgpginfo 0.3.0 0.4.0: add GnuPG info into email headers while delivering
+power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
