@@ -1,9 +1,9 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-DESCRIPTION="Service for net-ftp/twoftpd"
+DESCRIPTION="Service for Xorg"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
 SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
@@ -14,13 +14,12 @@ IUSE=""
 
 DEPEND="runit-service/setupservices"
 RDEPEND=">=sys-process/runit-2.1.2-r1
-	net-ftp/twoftpd"
+	runit-service/service-agetty
+	runit-service/service-dbus
+	runit-service/service-consolekit
+	x11-apps/xinit
+	x11-misc/slim"
 
 src_install() {
 	cp -a * "${D}"
-	for d in var/log/*/{,*/}; do
-		fowners log:root /"$d"
-		fperms 0750 /"$d"
-	done
-	fperms 0600 /etc/sv/twoftpd/passwd
 }

@@ -1,25 +1,27 @@
-# Copyright 1999-2018 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-DESCRIPTION="Service for app-metrics/prometheus"
+DESCRIPTION="Service for net-misc/dhcp"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
 SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="runit-service/setupservices"
 RDEPEND=">=sys-process/runit-2.1.2-r1
-	app-metrics/prometheus"
+	net-misc/socat
+	net-misc/dhcp"
 
 src_install() {
+	if use amd64; then
+		ln -s lib service/dhcpd/root/lib64
+		mv service/dhcpd/root/lib/ld-linux{,-x86-64}.so.2
+	fi
 	cp -a * "${D}"
-	for d in var/log/*/{,*/}; do
-		fowners log:root /"$d"
-		fperms 0750 /"$d"
-	done
+	fowners nobody:nobody /etc/sv/dhcpd/root/var/{run,lib}/dhcp/
 }

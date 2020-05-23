@@ -1,20 +1,20 @@
-# Copyright 1999-2017 Gentoo Foundation
+# Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=6
 
-DESCRIPTION="Service for net-analyzer/pushgateway"
+DESCRIPTION="Service for net-ftp/twoftpd"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
 SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
 LICENSE="public-domain"
 SLOT="0"
-KEYWORDS="~amd64"
+KEYWORDS="~amd64 ~x86"
 IUSE=""
 
 DEPEND="runit-service/setupservices"
 RDEPEND=">=sys-process/runit-2.1.2-r1
-	net-analyzer/pushgateway"
+	net-ftp/twoftpd"
 
 src_install() {
 	cp -a * "${D}"
@@ -22,4 +22,5 @@ src_install() {
 		fowners log:root /"$d"
 		fperms 0750 /"$d"
 	done
+	fperms 0600 /etc/sv/twoftpd/passwd
 }
