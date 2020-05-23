@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-libs/courier-authlib
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 net-libs/courier-authlib
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-courier-auth-1.0.0.tgz
+_md5_=0b3c64a7858214757062144622b7a7e7

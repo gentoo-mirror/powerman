@@ -33,12 +33,15 @@ runit-service/service-atd 1.0.0 2.0.0: Service for sys-process/at
 runit-service/service-conky 2.0.0: Service for app-admin/conky
 runit-service/service-consolekit 1.0.0 2.0.0: Service for sys-auth/consolekit
 runit-service/service-consul 2.0.0: Service for app-admin/consul
+runit-service/service-courier-auth 1.0.0: Service for net-libs/courier-authlib
+runit-service/service-courier-imap 0.1.0: Service for net-mail/courier-imap
 runit-service/service-cups 1.0.0 2.0.0: Service for net-print/cups
 runit-service/service-dbus 1.0.3 2.0.0: Service for sys-apps/dbus
 runit-service/service-dcron 1.0.0 2.0.0: Service for sys-process/dcron
 runit-service/service-dhcpd 1.1.2-r1 2.1.2: Service for net-misc/dhcp
 runit-service/service-djbdns 1.0.1 2.0.2: Service for net-dns/djbdns
 runit-service/service-docker 1.1.0 2.0.1: Service for app-emulation/docker
+runit-service/service-elogin 1.0.0: Service for sys-auth/elogind
 runit-service/service-expirelog 1.0.0 2.0.0: Service for cleaning runsvdir's title
 runit-service/service-gpm 1.0.0 2.0.0: Service for sys-libs/gpm
 runit-service/service-grafana 2.0.0: Service for www-apps/grafana
@@ -51,7 +54,11 @@ runit-service/service-nginx 1.0.0 2.0.1: Service for www-servers/nginx
 runit-service/service-node_exporter 2.2.1: Service for net-analyzer/prometheus-node_exporter
 runit-service/service-notify 1.2.6 2.3.0: Process system log on-the-fly, detect events and run actions
 runit-service/service-nut 1.0.1 2.0.0: Service for sys-power/nut
+runit-service/service-opendkim 1.0.0: Service for mail-filter/opendkim
+runit-service/service-opendmarc 1.0.0: Service for mail-filter/opendmarc
 runit-service/service-openvpn 2.0.0: Service for net-vpn/openvpn
+runit-service/service-postfix 1.0.0: Service for mail-mta/postfix
+runit-service/service-postsrs 1.0.0: Service for mail-filter/postsrsd
 runit-service/service-process-exporter 2.0.1: Service for net-analyzer/process-exporter
 runit-service/service-prometheus 2.0.1: Service for app-metrics/prometheus
 runit-service/service-pushgateway 2.0.1: Service for net-analyzer/pushgateway

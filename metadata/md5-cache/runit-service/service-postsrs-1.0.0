@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for mail-filter/postsrsd
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 mail-filter/postsrsd
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-postsrs-1.0.0.tgz
+_md5_=9239bc2f1a9dcb5ea14101803e494961

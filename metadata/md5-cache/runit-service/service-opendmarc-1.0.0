@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for mail-filter/opendmarc
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 mail-filter/opendmarc
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-opendmarc-1.0.0.tgz
+_md5_=98ba7d7dfe6340b4567cc4af7166049a

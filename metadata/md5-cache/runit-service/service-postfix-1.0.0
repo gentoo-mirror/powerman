@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for mail-mta/postfix
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 mail-mta/postfix
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-postfix-1.0.0.tgz
+_md5_=2e8ce908901e04212c45058fb5cebd3e

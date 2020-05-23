@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-mail/courier-imap
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 net-mail/courier-imap
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-courier-imap-0.1.0.tgz
+_md5_=3e7d606e696d59ad32b733dae40209db
