@@ -2,7 +2,6 @@ app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p2019121
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
 dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Net::DNS::Async
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
-mail-filter/spf-engine 2.9.2: Python-based policy daemon for Postfix SPF verification
 media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
 media-sound/cue2tracks 0.2.16-r1: Tool for splitting audio CD image to tracks with cue sheet info.
