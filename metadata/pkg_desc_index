@@ -1,4 +1,4 @@
-app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931: Client for keybase.io (binary version with GUI)
+app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541: Client for keybase.io (binary version with GUI)
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
 dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Net::DNS::Async
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
