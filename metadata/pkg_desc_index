@@ -4,20 +4,17 @@ dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Ne
 dev-vcs/vcprompt 9999: show info about the current working directory for various VCS for PS1
 media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
-media-sound/cue2tracks 0.2.16-r1: Tool for splitting audio CD image to tracks with cue sheet info.
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 media-video/vidcutter 6.0.0 9999: FFmpeg-based simple video cutter & joiner with a modern PyQt5 GUI
 net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
 net-analyzer/process-exporter 0.1.0: Prometheus exporter that mines /proc to report on selected processes
 net-analyzer/pushgateway 0.4.0: Allow ephemeral and batch jobs to expose their metrics to Prometheus
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
-net-im/zoom-bin 2.7.162522.0121-r1 2.8.183302.0415 3.0.309708.1027: Video conferencing and web conferencing service
 net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
-net-mail/queue-repair 0.9.0-r2: A toolkit for dealing with the qmail queue directory structure
 power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
-power-misc/powerbackup 0.1.4: Simple and flexible incremental backup
+power-misc/powerbackup 0.1.4 0.1.5: Simple and flexible incremental backup
 power-misc/powerutils 2.2.14: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.6: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
