@@ -6,9 +6,6 @@ media-fonts/developer-font 1.6-r1: Another clean fixed font for the console and 
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 media-video/vidcutter 6.0.0 9999: FFmpeg-based simple video cutter & joiner with a modern PyQt5 GUI
-net-analyzer/alertmanager 0.5.1: Handles alerts sent by client applications such as the Prometheus
-net-analyzer/process-exporter 0.1.0: Prometheus exporter that mines /proc to report on selected processes
-net-analyzer/pushgateway 0.4.0: Allow ephemeral and batch jobs to expose their metrics to Prometheus
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
 net-mail/cmd5checkpw 0.30-r1 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
 power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
@@ -23,7 +20,7 @@ runit-service/service-3proxy 1.0.2 2.1.2: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.1 2.0.0: Service for sys-power/acpid
 runit-service/service-adsl 1.0.1 2.0.0: Service for net-dialup/rp-pppoe
 runit-service/service-agetty 1.0.2 2.0.0: Service for agetty
-runit-service/service-alertmanager 2.0.1: Service for net-analyzer/alertmanager
+runit-service/service-alertmanager 2.1.0: Service for net-analyzer/alertmanager
 runit-service/service-apache2 1.1.0 2.0.0: Service for www-servers/apache-2
 runit-service/service-atd 1.0.0 2.0.0: Service for sys-process/at
 runit-service/service-conky 2.0.0: Service for app-admin/conky
@@ -55,9 +52,9 @@ runit-service/service-opendmarc 1.0.0: Service for mail-filter/opendmarc
 runit-service/service-openvpn 2.0.0: Service for net-vpn/openvpn
 runit-service/service-postfix 1.0.0: Service for mail-mta/postfix
 runit-service/service-postsrs 1.0.0: Service for mail-filter/postsrsd
-runit-service/service-process-exporter 2.0.1: Service for net-analyzer/process-exporter
+runit-service/service-process-exporter 2.1.0: Service for net-analyzer/process-exporter
 runit-service/service-prometheus 2.0.1: Service for app-metrics/prometheus
-runit-service/service-pushgateway 2.0.1: Service for net-analyzer/pushgateway
+runit-service/service-pushgateway 2.1.0: Service for net-analyzer/pushgateway
 runit-service/service-qmail 1.2.0 2.0.0: Service for virtual/qmail
 runit-service/service-revssh 2.0.0: Service for reverse ssh
 runit-service/service-rtorrent 2.0.0: Service for net-p2p/rtorrent
