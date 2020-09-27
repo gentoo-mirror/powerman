@@ -3,7 +3,7 @@
 
 EAPI=6
 
-DESCRIPTION="Service for net-analyzer/pushgateway"
+DESCRIPTION="Service for net-analyzer/process-exporter"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
 SRC_URI="http://powerman.name/download/Gentoo/${P}.tgz"
 
@@ -14,7 +14,7 @@ IUSE=""
 
 DEPEND="runit-service/setupservices"
 RDEPEND=">=sys-process/runit-2.1.2-r1
-	net-analyzer/pushgateway"
+	app-metrics/process-exporter"
 
 src_install() {
 	cp -a * "${D}"
