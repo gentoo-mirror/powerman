@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Google Cloud SDK
+EAPI=7
+HOMEPAGE=https://cloud.google.com/sdk
+KEYWORDS=~amd64
+LICENSE=Apache-2.0
+SLOT=0
+SRC_URI=https://dl.google.com/dl/cloudsdk/channels/rapid/downloads/google-cloud-sdk-319.0.0-linux-x86_64.tar.gz
+_md5_=b4b3ad27ed6c71697fe2e56dfa942747

@@ -1,3 +1,4 @@
+app-admin/google-cloud-sdk 319.0.0: Google Cloud SDK
 app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541: Client for keybase.io (binary version with GUI)
 app-text/goldendict 1.5.0_rc2-r2: Feature-rich dictionary lookup program
 dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
