@@ -78,6 +78,6 @@ sys-libs/wcwidth-icons 0.2.1-r1 0.2.2: Support fonts with double-width icons in 
 sys-process/runit 2.1.1-r1 2.1.2-r1: A UNIX init scheme with service supervision
 x11-misc/snixembed 9999: Proxy StatusNotifierItems as XEmbedded systemtray-spec icons
 x11-misc/xse 2.1-r2: Command Line Interface to XSendEvent()
-x11-plugins/lurch 0.6.7-r1: Implements the OMEMO (XEP-0384) extension for libpurple.
+x11-plugins/lurch 0.6.8: OMEMO encryption for libpurple (XEP-0384)
 x11-plugins/purple-carbons 0.1.4: Experimental XEP-0280: Message Carbons plugin for libpurple
 x11-plugins/telegram-purple 9999: Adds support for Telegram to Pidgin and Finch.
