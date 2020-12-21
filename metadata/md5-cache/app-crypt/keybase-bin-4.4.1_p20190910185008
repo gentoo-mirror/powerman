@@ -8,5 +8,5 @@ RDEPEND=app-crypt/gnupg !app-crypt/kbfs !app-crypt/keybase
 RESTRICT=strip
 SLOT=0
 SRC_URI=amd64? ( https://prerelease.keybase.io/linux_binaries/deb/keybase_4.4.1-20190910185008.b5f8897c2a_amd64.deb ) x86? ( https://prerelease.keybase.io/linux_binaries/deb/keybase_4.4.1-20190910185008.b5f8897c2a_i386.deb )
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	8ee8c1a2f31437d1766aac890d07a7f4	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
+_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	605c126bed8d87e4378d5ff1645330cb	unpacker	45b49db67094fdafbb6a16a2299e894b	xdg-utils	ff2ff954e6b17929574eee4efc5152ba
 _md5_=6a6d9605ff99cf9292f4e3b4dd8f4411
