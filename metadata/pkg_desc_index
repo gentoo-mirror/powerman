@@ -73,7 +73,7 @@ runit-service/service-twoftpd 1.0.2 2.0.1: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-x 1.1.0 2.1.1-r1: Service for Xorg
 runit-service/setupservices 1-r2: Setup system to use runit services
-sys-auth/elogind 243.7: The systemd project's logind, extracted to a standalone package
+sys-auth/elogind 243.7 243.7-r1: The systemd project's logind, extracted to a standalone package
 sys-libs/wcwidth-icons 0.2.1-r1 0.2.2: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
 sys-process/runit 2.1.1-r1 2.1.2-r1: A UNIX init scheme with service supervision
 x11-misc/snixembed 9999: Proxy StatusNotifierItems as XEmbedded systemtray-spec icons
