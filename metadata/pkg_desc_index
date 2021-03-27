@@ -8,6 +8,7 @@ dev-qt/qtlockedfile 2.4.1_p20171024: QFile extension with advisory locking funct
 dev-qt/qtsingleapplication 2.6.1_p20171024: Qt library to start applications only once per user
 dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 framework (deprecated)
 dev-vcs/vcprompt 1.3.0: Show info about the current working directory for various VCS for PS1
+media-fonts/developer-font 1.6-r2: Another clean fixed font for the console and X11
 media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and keyboard
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 media-video/vidcutter 6.0.0 9999: FFmpeg-based simple video cutter & joiner with a modern PyQt5 GUI

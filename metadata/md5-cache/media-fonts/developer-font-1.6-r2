@@ -1,0 +1,16 @@
+BDEPEND=X? ( >=x11-apps/mkfontscale-1.2.0 media-fonts/encodings )
+DEFINED_PHASES=compile configure install postinst postrm setup
+DEPEND=dev-lang/perl sys-apps/gawk app-arch/gzip pcf? ( x11-apps/bdftopcf )
+DESCRIPTION=Another clean fixed font for the console and X11
+EAPI=7
+HOMEPAGE=http://powerman.name/config/font.html
+INHERIT=font
+IUSE=+psf raw +pcf inferno X
+KEYWORDS=~amd64 ~x86
+LICENSE=GPL-2
+RDEPEND=psf? ( media-fonts/terminus-font[psf] ) inferno? ( dev-inferno/inferno )
+REQUIRED_USE=X? ( pcf )
+SLOT=0
+SRC_URI=http://powerman.name/download/font/developer-font-1.6.tgz
+_eclasses_=font	0667878c2b594871023dd1833d05996f
+_md5_=d1a9ddec0eb96f7b8096ad43402540cf
