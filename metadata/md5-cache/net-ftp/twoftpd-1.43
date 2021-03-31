@@ -3,10 +3,11 @@ DEPEND=virtual/libc >=dev-libs/bglibs-1.103 >=net-libs/cvm-0.90
 DESCRIPTION=Simple secure efficient FTP server by Bruce Guenter
 EAPI=6
 HOMEPAGE=http://untroubled.org/twoftpd/
+INHERIT=toolchain-funcs
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=sys-apps/ucspi-tcp sys-process/daemontools >=net-libs/cvm-0.90
 SLOT=0
 SRC_URI=http://untroubled.org/twoftpd/archive/twoftpd-1.43.tar.gz
-_eclasses_=multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e
 _md5_=7bf05a2087f79063e21931a2edde3703
