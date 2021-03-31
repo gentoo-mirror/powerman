@@ -3,11 +3,12 @@ DEPEND=>=sys-process/runit-2.1.2-r1
 DESCRIPTION=Replacement for SysV init scripts to use with runit.
 EAPI=6
 HOMEPAGE=http://powerman.name/RTFM/runit.html
+INHERIT=linux-info
 IUSE=kernel_linux
 KEYWORDS=~amd64 ~x86
 LICENSE=GPL-2
 RDEPEND=net-firewall/iptables runit-service/service-log-all sys-apps/busybox sys-apps/iproute2 sys-apps/sysvinit sys-process/runit virtual/udev
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/runit-scripts-1.7.0.tgz
-_eclasses_=eapi7-ver	f9ec87e93172b25ce65a85303dc06964	linux-info	c90a203b1c14cfa77bd3e37a0e96c955	multilib	d410501a125f99ffb560b0c523cd3d1e	toolchain-funcs	24921b57d6561d87cbef4916a296ada4
+_eclasses_=toolchain-funcs	24921b57d6561d87cbef4916a296ada4	multilib	d410501a125f99ffb560b0c523cd3d1e	eapi7-ver	f9ec87e93172b25ce65a85303dc06964	linux-info	30ded7f9adbdd03d3e848cdd74f6c395
 _md5_=b9c3a6b8fefcd7033c1f2d3aa8e2571a
