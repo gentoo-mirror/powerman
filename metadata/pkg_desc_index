@@ -1,6 +1,5 @@
 app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541 5.5.2_p20201016183637 5.6.1_p20210125164223: Client for keybase.io (binary version with GUI)
 app-text/goldendict 1.5.0_rc2-r2: Feature-rich dictionary lookup program
-dev-inferno/inferno 20150330-r3 20180403-r1: OS Inferno Fourth Edition
 dev-libs/eb 4.4.1-r1: EB is a C library and utilities for accessing CD-ROM books
 dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Net::DNS::Async
 dev-qt/qthelp 5.15.1: Qt5 module for integrating online documentation into applications
