@@ -3,7 +3,6 @@ app-text/goldendict 1.5.0_rc2-r2: Feature-rich dictionary lookup program
 dev-inferno/inferno 20210323: OS Inferno Fourth Edition
 dev-libs/eb 4.4.1-r1: EB is a C library and utilities for accessing CD-ROM books
 dev-perl/Net-DNS-Async-Simple 1.161090: A simple wrapper around the excellent Net::DNS::Async
-dev-qt/qthelp 5.15.1: Qt5 module for integrating online documentation into applications
 dev-qt/qtlockedfile 2.4.1_p20171024: QFile extension with advisory locking functions
 dev-qt/qtsingleapplication 2.6.1_p20171024: Qt library to start applications only once per user
 dev-qt/qtwebkit 5.212.0_pre20200309-r1: WebKit rendering library for the Qt5 framework (deprecated)
