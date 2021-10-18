@@ -12,6 +12,7 @@ media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and k
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
 net-mail/cmd5checkpw 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
+net-misc/bloomrpc-bin 1.5.3: GUI Client for GRPC Services
 power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
@@ -19,7 +20,7 @@ power-misc/powerbackup 0.1.4 0.1.5: Simple and flexible incremental backup
 power-misc/powerutils 2.2.14: A bundle of useful small utilities
 power-misc/powerwatchdog 0.1.6: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
-power-misc/runit-scripts 1.6.1 1.7.0: Replacement for SysV init scripts to use with runit.
+power-misc/runit-scripts 1.6.1 1.7.0 1.8.0: Replacement for SysV init scripts to use with runit.
 runit-service/service-3proxy 1.0.2 2.1.2: Service for net-proxy/3proxy
 runit-service/service-acpid 1.0.1 2.0.0: Service for sys-power/acpid
 runit-service/service-adsl 1.0.1 2.0.0: Service for net-dialup/rp-pppoe
