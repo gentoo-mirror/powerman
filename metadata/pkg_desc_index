@@ -18,7 +18,7 @@ power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/powerbackup 0.1.4 0.1.5: Simple and flexible incremental backup
 power-misc/powerutils 2.2.14: A bundle of useful small utilities
-power-misc/powerwatchdog 0.1.6: Watchdogs for system monitoring
+power-misc/powerwatchdog 0.1.6 0.2.0: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
 power-misc/runit-scripts 1.6.1 1.7.0 1.8.0: Replacement for SysV init scripts to use with runit.
 runit-service/service-3proxy 1.0.2 2.1.2: Service for net-proxy/3proxy
