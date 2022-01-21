@@ -1,4 +1,4 @@
-app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541 5.5.2_p20201016183637 5.6.1_p20210125164223 5.7.1_p20210623205749 5.8.1_p20210930160723 5.9.0_p20211217212642: Client for keybase.io (binary version with GUI)
+app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541 5.5.2_p20201016183637 5.6.1_p20210125164223 5.7.1_p20210623205749 5.8.1_p20210930160723 5.9.0_p20211217212642 5.9.0_p20220120174718: Client for keybase.io (binary version with GUI)
 app-text/goldendict 1.5.0_rc2-r2: Feature-rich dictionary lookup program
 dev-inferno/inferno 20210323: OS Inferno Fourth Edition
 dev-libs/eb 4.4.1-r1: EB is a C library and utilities for accessing CD-ROM books
@@ -63,7 +63,7 @@ runit-service/service-pushgateway 2.1.0: Service for net-analyzer/pushgateway
 runit-service/service-qmail 1.2.0 2.0.0: Service for virtual/qmail
 runit-service/service-revssh 2.0.0: Service for reverse ssh
 runit-service/service-rtorrent 2.0.0: Service for net-p2p/rtorrent
-runit-service/service-samba 1.0.1 2.0.1: Service for net-fs/samba
+runit-service/service-samba 1.0.1 2.0.1 2.1.0: Service for net-fs/samba
 runit-service/service-smartd 1.0.0 2.0.0: Service for sys-apps/smartmontools
 runit-service/service-socklog 1.0.1 2.0.0: Service for app-admin/socklog
 runit-service/service-ssh 1.0.0 2.0.0: Service for net-misc/openssh

@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-fs/samba
+EAPI=6
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 >=net-fs/samba-4.15
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-samba-2.1.0.tgz
+_md5_=cade8e1983d9a29de08950d0ef05f1da
