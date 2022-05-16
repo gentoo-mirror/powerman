@@ -6,5 +6,5 @@ INHERIT=user
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
-_eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	ccdfe713e9e8d4a8714f0370512ca086
+_eclasses_=user-info	69a1ed744ec33cf2c910ff2bd6084d11	user	6d5286606283893a6f21db7860e5cc6c
 _md5_=17b39c09b7eec8109e4da6ce32bc9658
