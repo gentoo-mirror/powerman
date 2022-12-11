@@ -1,0 +1,9 @@
+DEFINED_PHASES=install unpack
+DESCRIPTION=Setup system to use runit services
+EAPI=6
+HOMEPAGE=http://powerman.name/
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=acct-user/log
+SLOT=0
+_md5_=5020cfe03d4580e8b3db84bcbd98cc30

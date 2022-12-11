@@ -1,3 +1,5 @@
+acct-group/log 0: System group: log
+acct-user/log 0: User for runit-service/setupservices
 app-crypt/keybase-bin 4.4.1_p20190910185008 4.7.2_p20191028173732 5.1.1_p20191211223501 5.2.0_p20200130211428 5.4.2_p20200424214931 5.5.1_p20200527202541 5.5.2_p20201016183637 5.6.1_p20210125164223 5.7.1_p20210623205749 5.8.1_p20210930160723 5.9.0_p20211217212642 5.9.0_p20220120174718 5.9.3_p20220216215910 5.9.3_p20220216215910-r1 6.0.2_p20220610191041: Client for keybase.io (binary version with GUI)
 app-crypt/rust-u2f 0.4.2_p20220413: A software-only Universal 2nd Factor token
 app-text/goldendict 1.5.0_rc2-r2: Feature-rich dictionary lookup program
@@ -72,6 +74,7 @@ runit-service/service-tftpd 1.0.0 2.1.1: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.1: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation
 runit-service/service-x 1.1.0 2.1.1-r1: Service for Xorg
+runit-service/setupservices 1-r3: Setup system to use runit services
 sys-auth/elogind 246.9.2 246.10-r1 246.10-r2: The systemd project's logind, extracted to a standalone package
 sys-libs/wcwidth-icons 0.2.1-r1 0.2.2: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
 sys-process/runit 2.1.2-r1: A UNIX init scheme with service supervision
