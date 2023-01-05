@@ -15,7 +15,10 @@ media-fonts/russify 2.7: font for console, dos/koi/win mappings for screen and k
 media-sound/flaccl 2.1.6: CUDA-enabled FLAC encoder (former FlaCuda)
 net-ftp/twoftpd 1.42 1.43: Simple secure efficient FTP server by Bruce Guenter
 net-mail/cmd5checkpw 0.30-r2: A checkpassword compatible authentication program that used CRAM-MD5 authentication mode
+net-misc/atomicwallet 2.45.1_p220: Cryptocurrency Wallet
 net-misc/bloomrpc-bin 1.5.3: GUI Client for GRPC Services
+net-misc/exodus 22.4.22: Cryptocurrency Wallet
+net-misc/rustdesk 1.1.9: Cryptocurrency Wallet
 power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
