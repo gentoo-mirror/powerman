@@ -10,5 +10,5 @@ LICENSE=ISC
 PROPERTIES=live
 RDEPEND=dev-lang/vala:= >=x11-libs/gtk+-3.0:3 >=dev-libs/glib-2.0:2 dev-libs/libdbusmenu[gtk3]
 SLOT=0
-_eclasses_=git-r3	2347f8fe2d392b2a091191f94be37e6f	vala	2633382950a3a9ce912c9258150d5db8
+_eclasses_=git-r3	c57c50c922e121043788de0b40ada60a	vala	2633382950a3a9ce912c9258150d5db8
 _md5_=d0a1420b74788a845691187fbf502779
