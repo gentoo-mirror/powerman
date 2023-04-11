@@ -11,6 +11,3 @@ media-fonts/developer-font:psf - Install PC Screen Font with unicode data (for l
 media-fonts/developer-font:raw - Install RAW font data which should be compatible with most UNIX systems (you don't need this on linux).
 sys-auth/elogind:cgroup-hybrid - Use hybrid cgroup hierarchy (OpenRC's default) instead of unified.
 sys-auth/elogind:runit - Use runit instead of openrc.
-x11-wm/fluxbox:slit - Enables the Fluxbox slit (or dock)
-x11-wm/fluxbox:systray - Enables the system tray in the Fluxbox toolbar
-x11-wm/fluxbox:toolbar - Enables the Fluxbox toolbar
