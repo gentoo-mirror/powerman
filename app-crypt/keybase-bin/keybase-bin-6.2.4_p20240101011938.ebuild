@@ -1,4 +1,4 @@
-# Copyright 1999-2020 Gentoo Authors
+# Copyright 1999-2022 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
 EAPI=7
@@ -9,16 +9,13 @@ DESCRIPTION="Client for keybase.io (binary version with GUI)"
 HOMEPAGE="https://keybase.io/"
 
 MY_PN="${PN/-bin/}"
-COMMIT_ID=d4ebf7d999
+COMMIT_ID=ae7e4a1c15
 MY_PV="$(ver_cut 1-3)-$(ver_cut 4 ${PV/p//}).${COMMIT_ID}"
-SRC_URI="
-	amd64? ( https://prerelease.keybase.io/linux_binaries/deb/${MY_PN}_${MY_PV}_amd64.deb )
-	x86?   ( https://prerelease.keybase.io/linux_binaries/deb/${MY_PN}_${MY_PV}_i386.deb  )
-"
+SRC_URI="https://prerelease.keybase.io/linux_binaries/deb/${MY_PN}_${MY_PV}_amd64.deb"
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="-* ~amd64 ~x86"
+KEYWORDS="-* ~amd64"
 IUSE=""
 RESTRICT="strip"
 
@@ -29,8 +26,6 @@ RDEPEND="
 "
 
 QA_PREBUILT="
-	opt/keybase/swiftshader/libEGL.so
-	opt/keybase/swiftshader/libGLESv2.so
 	opt/keybase/libEGL.so
 	opt/keybase/libGLESv2.so
 	opt/keybase/libffmpeg.so
@@ -58,8 +53,6 @@ src_install() {
 	doins -r opt/
 	doins -r usr/
 	dodoc doc/*
-	exeinto /opt/keybase/swiftshader
-	doexe opt/keybase/swiftshader/*.so
 	exeinto /opt/keybase
 	doexe opt/keybase/*.so
 	doexe opt/keybase/Keybase
