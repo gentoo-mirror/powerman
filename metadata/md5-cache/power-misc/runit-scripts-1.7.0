@@ -9,5 +9,5 @@ LICENSE=GPL-2
 RDEPEND=net-firewall/iptables runit-service/service-log-all sys-apps/busybox sys-apps/iproute2 sys-apps/sysvinit sys-process/runit virtual/udev
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/runit-scripts-1.7.0.tgz
-_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	linux-info	7ca3057b277f1e5978947b4cc289ce62
+_eclasses_=toolchain-funcs	e56c7649b804f051623c8bc1a1c44084	multilib	c19072c3cd7ac5cb21de013f7e9832e0	eapi7-ver	1a0a60ad07c8b32d2faba2d085dc0f24	linux-info	e967b81f54be6f49f4219a57ce7db437
 _md5_=b9c3a6b8fefcd7033c1f2d3aa8e2571a
