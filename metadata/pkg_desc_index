@@ -70,7 +70,9 @@ runit-service/service-rtorrent 2.0.0: Service for net-p2p/rtorrent
 runit-service/service-samba 1.0.1 2.0.1 2.1.2: Service for net-fs/samba
 runit-service/service-smartd 1.0.0 2.0.0: Service for sys-apps/smartmontools
 runit-service/service-socklog 1.0.1 2.0.0: Service for app-admin/socklog
+runit-service/service-softu2f 1.0.0: Service for app-crypt/rust-u2f
 runit-service/service-ssh 1.0.0 2.0.0: Service for net-misc/openssh
+runit-service/service-syncthing 1.0.0: Service for net-p2p/syncthing
 runit-service/service-tftpd 1.0.0 2.1.1: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 1.0.2 2.0.1: Service for net-ftp/twoftpd
 runit-service/service-vmware 1.0.0 2.0.0: Service for app-emulation/vmware-workstation

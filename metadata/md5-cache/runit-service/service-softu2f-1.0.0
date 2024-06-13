@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for app-crypt/rust-u2f
+EAPI=8
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 runit-service/service-x net-p2p/syncthing
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-softu2f-1.0.0.tgz
+_md5_=419e42ce7bab601b559f2bfa7f81b0c6

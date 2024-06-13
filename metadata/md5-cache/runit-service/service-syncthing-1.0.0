@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for net-p2p/syncthing
+EAPI=8
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 net-p2p/syncthing
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-syncthing-1.0.0.tgz
+_md5_=531e332ad78b76c2247975ceb28f3920
