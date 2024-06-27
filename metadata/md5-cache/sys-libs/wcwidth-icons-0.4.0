@@ -1,0 +1,9 @@
+DEFINED_PHASES=install
+DESCRIPTION=Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
+EAPI=6
+HOMEPAGE=https://github.com/powerman/wcwidth-icons
+KEYWORDS=~amd64 ~x86
+LICENSE=LGPL-2.1+
+SLOT=0
+SRC_URI=https://github.com/powerman/wcwidth-icons/archive/v0.4.0.tar.gz -> wcwidth-icons-0.4.0.tar.gz
+_md5_=30026a6565a9669be5782469c8231def
