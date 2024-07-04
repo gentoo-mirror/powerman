@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 mail-mta/postfix
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-postfix-1.0.0.tgz
-_md5_=2e8ce908901e04212c45058fb5cebd3e
+_md5_=25d75688f5ea80d5ed44a6ce3aa5db1b

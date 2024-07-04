@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 mail-filter/opendkim
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-opendkim-1.0.0.tgz
-_md5_=b037cc17bdcb94822d999d13228b024b
+_md5_=16cb0ee7ff4c509b1c37364b6bf74bf2

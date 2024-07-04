@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 mail-filter/postsrsd
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-postsrs-1.0.0.tgz
-_md5_=9239bc2f1a9dcb5ea14101803e494961
+_md5_=ed378a6530f2dee1455d0e1a8db8a100

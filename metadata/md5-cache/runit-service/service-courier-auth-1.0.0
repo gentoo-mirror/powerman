@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-libs/courier-authlib
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-courier-auth-1.0.0.tgz
-_md5_=0b3c64a7858214757062144622b7a7e7
+_md5_=dd75928988388a3be0d01b4badfdb7f0

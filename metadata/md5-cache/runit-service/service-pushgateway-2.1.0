@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/pushgateway
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-pushgateway-2.1.0.tgz
-_md5_=29d91f53161a41970358918ce0183e0f
+_md5_=7de3cd9ecb747e8ad63d0a52b99fb3ca

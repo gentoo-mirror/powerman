@@ -7,4 +7,4 @@ LICENSE=public-domain
 RDEPEND=virtual/mta || ( sys-process/procps[-modern-top] app-admin/sysstat )
 SLOT=0
 SRC_URI=http://powerman.name/download/powerwatchdog/powerwatchdog-0.2.0.tgz
-_md5_=eac389b43a4be9b79e3d5c5dc3913647
+_md5_=c9da8f76e05074754ef4b5a729d887e8

@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-libs/gpm
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-gpm-2.0.0.tgz
-_md5_=92ffe44d7b5e281bc50a0a2a098369d1
+_md5_=2907633d2756f41aa205ee5b7d1dcaa7

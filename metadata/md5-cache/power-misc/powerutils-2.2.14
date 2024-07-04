@@ -6,4 +6,4 @@ KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 SLOT=0
 SRC_URI=http://powerman.name/download/powerutils/powerutils-2.2.14.tgz
-_md5_=183799238e7bdd102a1a302d617e31af
+_md5_=2d4b42c2725d479395d17765a736576c

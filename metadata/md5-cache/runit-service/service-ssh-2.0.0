@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-misc/openssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-ssh-2.0.0.tgz
-_md5_=578663f1f1eb41fd4797a392a064ec37
+_md5_=eca44e992c8f885dcc4a85614799ef90

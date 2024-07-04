@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-power/nut
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-nut-2.0.0.tgz
-_md5_=0b84c304d5ea5c3d106dc4b283c9767e
+_md5_=29249c91abaadc45d9a43fb2f6667106

@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-process/procps app-misc/screen net-p2p/rtorrent
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-rtorrent-2.0.0.tgz
-_md5_=964c69d35808010e21629b91cf55f659
+_md5_=841b54a697ac2a8bdf4c0827af3156ad

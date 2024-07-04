@@ -5,7 +5,7 @@ EAPI=6
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
-RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/ucspi-ssl virtual/qmail
+RDEPEND=>=sys-process/runit-2.1.2-r1 virtual/qmail
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-qmail-2.0.0.tgz
-_md5_=23f1813e44050df16ff4f769ae7a143a
+_md5_=713f99673a5c91b027fd0c5a962c5bd1

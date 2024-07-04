@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-wireless/hostapd
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-hostapd-2.0.0.tgz
-_md5_=74a17e6cce4409388dfcd4d635bde2a5
+_md5_=d37fe1058e4858f57dfe7d7dd8d95d2f

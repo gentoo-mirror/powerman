@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-print/cups
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-cups-2.0.0.tgz
-_md5_=2f9ea1b64de9c53cec8e112cef4da4f0
+_md5_=c81af237ae390fca9bed91aba59cbfe8

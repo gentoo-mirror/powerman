@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=virtual/qmail dev-perl/Net-DNS-Async-Simple
 SLOT=0
 SRC_URI=http://powerman.name/download/greysmtpd/greysmtpd-0.2.0.tgz
-_md5_=daec01f8090158ecfd45005d9252a546
+_md5_=ce43a860d64f312ae3bd75227c0e8e3a

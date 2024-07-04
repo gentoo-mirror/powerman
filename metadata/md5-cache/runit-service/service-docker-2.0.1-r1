@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-containers/docker
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-docker-2.0.1.tgz
-_md5_=edcf746d18dda3a0414d553bf19af4ac
+_md5_=343c5a36390fe8715c9486caf3a5f156

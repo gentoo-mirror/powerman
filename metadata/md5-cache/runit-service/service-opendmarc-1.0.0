@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 mail-filter/opendmarc
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-opendmarc-1.0.0.tgz
-_md5_=98ba7d7dfe6340b4567cc4af7166049a
+_md5_=72355f77222bab523f71fc09e93a1923

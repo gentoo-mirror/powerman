@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/process-exporter
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-process-exporter-2.1.0.tgz
-_md5_=6a566de60654d34c163b7db6ddf83dea
+_md5_=3bed8d416b1ac00aa845b08885f095be

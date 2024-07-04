@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-vpn/openvpn
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-openvpn-2.0.0.tgz
-_md5_=e63f4dc316c00bdf447d899f28bb70e2
+_md5_=e67a280c9b80e0d3fda4b7caa49cac4c

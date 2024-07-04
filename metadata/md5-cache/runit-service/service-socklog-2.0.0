@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/socklog
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-socklog-2.0.0.tgz
-_md5_=0feaece8fb3099f362f40cdf82221841
+_md5_=7179a9c59cecd47fe719626a5659f625

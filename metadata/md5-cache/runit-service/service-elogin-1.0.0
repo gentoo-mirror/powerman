@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-auth/elogind
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-elogin-1.0.0.tgz
-_md5_=9a19f12595a4e911fdfb54cfa114589d
+_md5_=82a97b3ceef5acb2a4254070fa5b8d33

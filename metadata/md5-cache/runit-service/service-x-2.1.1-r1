@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 runit-service/service-agetty runit-service/service-dbus runit-service/service-elogin x11-apps/xinit x11-misc/slim
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-x-2.1.1.tgz
-_md5_=09c022babd293e7892992b06420b8f3d
+_md5_=14f1eea0f5528f069f9be3d249104ae4

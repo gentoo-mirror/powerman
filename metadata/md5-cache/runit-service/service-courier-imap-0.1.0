@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-mail/courier-imap
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-courier-imap-0.1.0.tgz
-_md5_=3e7d606e696d59ad32b733dae40209db
+_md5_=513c0b30635cf3c2000e590b416eecfa

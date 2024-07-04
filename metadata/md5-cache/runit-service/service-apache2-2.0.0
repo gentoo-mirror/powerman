@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 >=www-servers/apache-2
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-apache2-2.0.0.tgz
-_md5_=c9b2b900e4cf6a8554de1701c7f811fa
+_md5_=da9dd924c4da0c7ef705c8878c514e30

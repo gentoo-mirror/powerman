@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-notify-2.4.0.tgz
-_md5_=45895e4314414c965159c2e704f5f545
+_md5_=b9559167d33de815fa79957d4f9d05c5

@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-log-all-2.0.0.tgz
-_md5_=4edbc608d6fce9495956c9cbb621da7c
+_md5_=0ef9d8b3af0e0f16e1e3fe97414fc9b4

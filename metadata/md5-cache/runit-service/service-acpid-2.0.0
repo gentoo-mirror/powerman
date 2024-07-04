@@ -8,4 +8,4 @@ LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-power/acpid
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-acpid-2.0.0.tgz
-_md5_=4c6c723c35480e5eec39f8179b61d616
+_md5_=048b486283c88479a17615d3c40bcda4
