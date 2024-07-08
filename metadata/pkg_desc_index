@@ -37,7 +37,6 @@ power-misc/powerbackup 0.1.5: Simple and flexible incremental backup
 power-misc/powerutils 2.2.14: A bundle of useful small utilities
 power-misc/powerwatchdog 0.2.0: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
-power-misc/runit-scripts 1.8.0: Replacement for SysV init scripts to use with runit.
 runit-service/service-3proxy 2.1.2: Service for net-proxy/3proxy
 runit-service/service-acpid 2.0.0: Service for sys-power/acpid
 runit-service/service-adsl 2.0.0: Service for net-dialup/rp-pppoe
