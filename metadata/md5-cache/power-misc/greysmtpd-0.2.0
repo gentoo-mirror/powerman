@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst
 DEPEND=virtual/qmail
 DESCRIPTION=tcpserver-compatible anti-spam (greylisting) smtpd
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/soft/greysmtpd.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=virtual/qmail dev-perl/Net-DNS-Async-Simple
 SLOT=0
 SRC_URI=http://powerman.name/download/greysmtpd/greysmtpd-0.2.0.tgz
-_md5_=ce43a860d64f312ae3bd75227c0e8e3a
+_md5_=d456b1a4f50407420c6bf8d4de8e722b

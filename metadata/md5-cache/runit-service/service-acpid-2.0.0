@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for sys-power/acpid
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-power/acpid
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-acpid-2.0.0.tgz
-_md5_=048b486283c88479a17615d3c40bcda4
+_md5_=dc62b3a827c6880801f48c181b3d9e2a
