@@ -1,7 +1,7 @@
 # Copyright 1999-2020 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DESCRIPTION="Service for net-dns/djbdns"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
@@ -24,7 +24,7 @@ src_install() {
 }
 
 pkg_postinst() {
-	for d in "${ROOT}"etc/sv/tinydns?*/; do
+	for d in "${ROOT}"/etc/sv/tinydns?*/; do
 		[ -e "$d" ] && ewarn "Modified service may need update: $d"
 	done
 }

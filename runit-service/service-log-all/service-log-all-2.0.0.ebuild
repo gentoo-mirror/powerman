@@ -1,7 +1,7 @@
 # Copyright 1999-2017 Gentoo Foundation
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=6
+EAPI=8
 
 DESCRIPTION="Catch-all log with most important data from all other logs"
 HOMEPAGE="http://powerman.name/RTFM/runit.html"
@@ -26,6 +26,6 @@ src_install() {
 pkg_postinst() {
 	if [ ! -d "${ROOT}${SVDIR}"/notify ]; then
 		ewarn "You MUST run service 'notify' at all runlevels where you use 'log-all'!"
-		ewarn "Please run:	ln -s /etc/sv/notify ${ROOT%/}${SVDIR%/}/"
+		ewarn "Please run:	ln -s /etc/sv/notify ${ROOT}${SVDIR%/}/"
 	fi
 }
