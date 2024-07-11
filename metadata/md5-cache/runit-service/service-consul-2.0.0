@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for app-admin/consul
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/consul
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-consul-2.0.0.tgz
-_md5_=9d92f5f9f42ab791efa008a14372d92a
+_md5_=6dc7464c01cf9181552e6e53a9bbb036

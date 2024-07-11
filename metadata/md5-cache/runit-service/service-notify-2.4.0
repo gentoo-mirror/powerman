@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Process system log on-the-fly, detect events and run actions
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-notify-2.4.0.tgz
-_md5_=b9559167d33de815fa79957d4f9d05c5
+_md5_=e49136ebc03937b32c1eff945d644f09

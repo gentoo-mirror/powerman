@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-analyzer/alertmanager
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/alertmanager
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-alertmanager-2.1.0.tgz
-_md5_=3b56048413848664b21e6adceca24fc1
+_md5_=1ff702b5680b9903572b0b7c7147cd1f

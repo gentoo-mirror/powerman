@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-p2p/rtorrent
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-process/procps app-misc/screen net-p2p/rtorrent
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-rtorrent-2.0.0.tgz
-_md5_=841b54a697ac2a8bdf4c0827af3156ad
+_md5_=bf6136f815ed5d69c72a473223c95ab4

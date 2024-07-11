@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-analyzer/pushgateway
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/pushgateway
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-pushgateway-2.1.0.tgz
-_md5_=7de3cd9ecb747e8ad63d0a52b99fb3ca
+_md5_=40c4a06c39e7f2160435856a4d82d393

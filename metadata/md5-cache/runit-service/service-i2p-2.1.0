@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-p2p/i2p
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 >=net-vpn/i2p-0.9.33
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-i2p-2.1.0.tgz
-_md5_=d297473ea3c1f4557aff2d8c16ecd750
+_md5_=27a753413c4e62d096fd2ad36f279645

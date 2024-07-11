@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for app-admin/mcelog
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/mcelog
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-mcelog-2.0.0.tgz
-_md5_=324a508051650a6bc01f926222820915
+_md5_=e6cb1e2827b2889ac123bb4fa1a2cc07

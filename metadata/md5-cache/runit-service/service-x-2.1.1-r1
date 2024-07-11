@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for Xorg
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 runit-service/service-agetty runit-service/service-dbus runit-service/service-elogin x11-apps/xinit x11-misc/slim
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-x-2.1.1.tgz
-_md5_=14f1eea0f5528f069f9be3d249104ae4
+_md5_=dcbd6b12aa22debdfef7fb83ec93d736

@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst
 DEPEND=runit-service/setupservices
 DESCRIPTION=Catch-all log with most important data from all other logs
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-log-all-2.0.0.tgz
-_md5_=0ef9d8b3af0e0f16e1e3fe97414fc9b4
+_md5_=eecc3f3268aab93722af0a56a79918b0

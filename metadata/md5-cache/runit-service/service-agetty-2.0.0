@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for agetty
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/util-linux
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-agetty-2.0.0.tgz
-_md5_=6daedb84896898b226248fdf2b207d07
+_md5_=6b04548b6a6db609e40766d1d7150dfa

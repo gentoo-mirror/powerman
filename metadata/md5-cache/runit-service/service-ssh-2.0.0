@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-misc/openssh
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-misc/openssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-ssh-2.0.0.tgz
-_md5_=eca44e992c8f885dcc4a85614799ef90
+_md5_=8d6b48a3315a0d9edb585feed2c60d5b

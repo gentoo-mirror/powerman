@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for sys-power/nut
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-power/nut
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-nut-2.0.0.tgz
-_md5_=29249c91abaadc45d9a43fb2f6667106
+_md5_=634a8ed95cd8fc7650138711dc9e1e7b

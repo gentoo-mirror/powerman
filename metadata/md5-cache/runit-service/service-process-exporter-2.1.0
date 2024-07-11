@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-analyzer/process-exporter
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-metrics/process-exporter
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-process-exporter-2.1.0.tgz
-_md5_=3bed8d416b1ac00aa845b08885f095be
+_md5_=c9fb42f463bb9fb76145bf29743762df

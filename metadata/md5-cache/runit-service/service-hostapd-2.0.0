@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for net-wireless/hostapd
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 net-wireless/hostapd
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-hostapd-2.0.0.tgz
-_md5_=d37fe1058e4858f57dfe7d7dd8d95d2f
+_md5_=f2a4d2c286651cdf2a2bfc7a6d672b70

@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for sys-apps/smartmontools
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/smartmontools
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-smartd-2.0.0.tgz
-_md5_=1e55c9ddc24250954dd1f2bbe18d051a
+_md5_=79ab65b3757acd3edaa0057884ae313a

@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for sys-apps/dbus
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 sys-apps/dbus
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-dbus-2.0.0.tgz
-_md5_=ff82717d9f1282d7e620f7df29783384
+_md5_=119637e8d97823681c7f149d2f3cb206

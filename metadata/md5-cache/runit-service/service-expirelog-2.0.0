@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for cleaning runsvdir's title
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-expirelog-2.0.0.tgz
-_md5_=a371dc111b6ae12c8b82f434911d7a12
+_md5_=079f5a247294502c831a69cb09313793

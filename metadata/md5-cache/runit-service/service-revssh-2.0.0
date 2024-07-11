@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for reverse ssh
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 virtual/ssh
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-revssh-2.0.0.tgz
-_md5_=70240906aa39b132d22a943fff3c9f21
+_md5_=a4ddb288063dfafb45491dc13a78863a

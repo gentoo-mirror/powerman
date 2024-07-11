@@ -1,11 +1,11 @@
 DEFINED_PHASES=install postinst
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for virtual/qmail
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 virtual/qmail
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-qmail-2.0.0.tgz
-_md5_=713f99673a5c91b027fd0c5a962c5bd1
+_md5_=d75d74690ebc559cceab5659fee83547

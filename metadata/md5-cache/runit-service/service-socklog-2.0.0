@@ -1,11 +1,11 @@
 DEFINED_PHASES=install
 DEPEND=runit-service/setupservices
 DESCRIPTION=Service for app-admin/socklog
-EAPI=6
+EAPI=8
 HOMEPAGE=http://powerman.name/RTFM/runit.html
 KEYWORDS=~amd64 ~x86
 LICENSE=public-domain
 RDEPEND=>=sys-process/runit-2.1.2-r1 app-admin/socklog
 SLOT=0
 SRC_URI=http://powerman.name/download/Gentoo/service-socklog-2.0.0.tgz
-_md5_=7179a9c59cecd47fe719626a5659f625
+_md5_=e66f8b600d990da88c9123364104acab
