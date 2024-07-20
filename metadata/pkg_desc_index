@@ -16,6 +16,7 @@ dev-python/lsprotocol 2023.0.1: Code generator and generated types for Language 
 dev-python/mdformat-footnote 0.1.1: Footnote format addition for mdformat
 dev-python/mdformat-frontmatter 2.0.8: mdformat plugin to ensure frontmatter is respected
 dev-python/mdformat-gfm 0.3.6: Mdformat plugin for GitHub Flavored Markdown compatibility
+dev-python/mdformat-myst 0.1.4: Mdformat plugin for MyST compatibility
 dev-python/mdformat-obsidian 0.0.2: Format Markdown for Obsidian including Callouts (Admonitions)
 dev-python/mdformat-simple-breaks 0.0.1: mdformat plugin to render thematic breaks using three dashes
 dev-python/mdformat-tables 0.4.1: An mdformat plugin for rendering tables
