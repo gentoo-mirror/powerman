@@ -112,5 +112,5 @@ runit-service/setupservices 1-r3: Setup system to use runit services
 sci-libs/tokenizers 0.19.1: Implementation of today's most used tokenizers
 sys-auth/elogind 246.10-r4: The systemd project's logind, extracted to a standalone package
 sys-libs/wcwidth-icons 0.5.0: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
-sys-process/runit 2.1.2-r4: A UNIX init scheme with service supervision
+sys-process/runit 2.1.2-r4 2.1.2-r5: A UNIX init scheme with service supervision
 x11-misc/snixembed 9999: Proxy StatusNotifierItems as XEmbedded systemtray-spec icons
