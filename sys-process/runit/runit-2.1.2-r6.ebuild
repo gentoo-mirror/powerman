@@ -7,16 +7,29 @@ inherit toolchain-funcs flag-o-matic
 
 DESCRIPTION="A UNIX init scheme with service supervision"
 HOMEPAGE="https://smarden.org/runit/"
-SRC_URI="https://smarden.org/runit/${P}.tar.gz"
+PATCH_VER=20240905
+SRC_URI="
+	https://smarden.org/runit/${P}.tar.gz
+	https://github.com/clan/runit/releases/download/${PV}-r5/${P}-patches-${PATCH_VER}.tar.xz
+"
 S=${WORKDIR}/admin/${P}/src
 
 LICENSE="BSD"
 SLOT="0"
-KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~ia64 ~m68k ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86"
-IUSE="static"
+KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~m68k ~mips ~ppc ~ppc64 ~s390 ~sparc ~x86"
+IUSE="split-usr static"
+
+src_unpack() {
+	unpack ${P}.tar.gz
+	unpack ${P}-patches-${PATCH_VER}.tar.xz
+}
 
 src_prepare() {
 	default
+
+	cd "${S}"/.. || die
+	eapply -p3 "${WORKDIR}"/patches
+	cd "${S}" || die
 
 	# We either build everything or nothing static
 	sed -i -e 's:-static: :' Makefile || die
@@ -35,11 +48,14 @@ src_configure() {
 }
 
 src_install() {
-	into /
 	dobin $(<../package/commands)
 	dodir /sbin
-	mv "${ED}"/bin/{runit-init,runit,utmpset} "${ED}"/sbin/ || die "dosbin"
-	dosym ../etc/runit/2 /sbin/runsvdir-start
+	mv "${ED}"/usr/bin/{runit-init,runit,utmpset} "${ED}"/sbin/ || die "dosbin"
+	if use split-usr; then
+		dosym ../etc/runit/2 /sbin/runsvdir-start
+	else
+		dosym ../../etc/runit/2 /sbin/runsvdir-start
+	fi
 
 	DOCS=(../package/{CHANGES,README,THANKS,TODO})
 	HTML_DOCS=(../doc/*.html)
@@ -64,8 +80,8 @@ default_config() {
 migrate_from_211() {
 	# Create /etc/service and /var/service if requested
 	if [[ -e "${T}"/make_var_service ]]; then
-		ln -snf runit/runsvdir/current "${EROOT}"/etc/service || die
-		ln -snf ../etc/runit/runsvdir/current "${EROOT}"/var/service || die
+		ln -sf "${EROOT}"/etc/runit/runsvdir/current "${EROOT}"/etc/service || die
+		ln -sf "${EROOT}"/etc/runit/runsvdir/current "${EROOT}"/var/service || die
 	fi
 	if [[ -d "${T}"/runsvdir ]]; then
 		cp -a "${T}"/runsvdir "${EROOT}"/etc/runit || die
@@ -74,19 +90,6 @@ migrate_from_211() {
 }
 
 pkg_preinst() {
-	if has_version 'sys-process/runit' &&
-		has_version '<sys-process/runit-2.1.2' &&
-		[ -d "${EROOT}"/service ]; then
-		if [ -e "${EROOT}"/etc/sv ]; then
-			mv -f "${EROOT}"/etc/sv "${EROOT}"/etc/sv.bak || die
-			ewarn "${EROOT}/etc/sv was moved to ${EROOT}/etc/sv.bak"
-		fi
-		mv "${EROOT}"/service "${EROOT}"/etc/sv || die
-		ln -snf etc/sv "${EROOT}"/service || die
-		cp -a "${EROOT}"/etc/runit/runsvdir "${T}" || die
-		touch "${T}"/make_var_service || die
-	fi
-
 	if has_version '<sys-process/runit-2.1.2'; then
 		pre_212=yes
 	fi
@@ -112,13 +115,13 @@ pkg_postinst() {
 		ewarn
 	fi
 
-	if [[ -L "${EROOT}"/service ]]; then
-		ewarn "${EROOT}/service has moved to"
+	if [[ -L "${EROOT}"/etc/runit/runsvdir/all ]]; then
+		ewarn "${EROOT}/etc/runit/runsvdir/all has moved to"
 		ewarn "${EROOT}/etc/sv."
 		ewarn "Any symbolic links under ${EROOT}/etc/runit/runsvdir"
-		ewarn "which point to services through ${EROOT}/service should be updated to"
+		ewarn "which point to services through ../all should be updated to"
 		ewarn "point to them through ${EROOT}/etc/sv."
-		ewarn "Once that is done, ${EROOT}/service should be"
+		ewarn "Once that is done, ${EROOT}/etc/runit/runsvdir/all should be"
 		ewarn "removed."
 		ewarn
 	fi
