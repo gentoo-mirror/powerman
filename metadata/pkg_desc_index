@@ -39,7 +39,7 @@ runit-service/service-dcron 2.0.0: Service for sys-process/dcron
 runit-service/service-dhcpd 2.1.2: Service for net-misc/dhcp
 runit-service/service-djbdns 2.0.2: Service for net-dns/djbdns
 runit-service/service-docker 2.0.1-r1: Service for app-emulation/docker
-runit-service/service-elogin 1.0.0: Service for sys-auth/elogind
+runit-service/service-elogin 1.0.0 1.1.0: Service for sys-auth/elogind
 runit-service/service-expirelog 2.0.0: Service for cleaning runsvdir's title
 runit-service/service-gpm 2.0.0: Service for sys-libs/gpm
 runit-service/service-hostapd 2.0.0: Service for net-wireless/hostapd
@@ -72,7 +72,7 @@ runit-service/service-tftpd 2.1.1: Service for net-ftp/tftp-hpa
 runit-service/service-twoftpd 2.0.1: Service for net-ftp/twoftpd
 runit-service/service-x 2.1.1-r1: Service for Xorg
 runit-service/setupservices 1-r3: Setup system to use runit services
-sys-auth/elogind 246.10-r4 252.9-r2: The systemd project's logind, extracted to a standalone package
+sys-auth/elogind 252.9-r2 255.5-r1: The systemd project's logind, extracted to a standalone package
 sys-libs/wcwidth-icons 0.5.0: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
 sys-process/runit 2.1.2-r6: A UNIX init scheme with service supervision
 x11-misc/snixembed 9999: Proxy StatusNotifierItems as XEmbedded systemtray-spec icons

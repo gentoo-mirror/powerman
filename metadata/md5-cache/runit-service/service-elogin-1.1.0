@@ -1,0 +1,11 @@
+DEFINED_PHASES=install
+DEPEND=runit-service/setupservices
+DESCRIPTION=Service for sys-auth/elogind
+EAPI=7
+HOMEPAGE=http://powerman.name/RTFM/runit.html
+KEYWORDS=~amd64 ~x86
+LICENSE=public-domain
+RDEPEND=>=sys-process/runit-2.1.2-r1 >=sys-auth/elogind-255
+SLOT=0
+SRC_URI=http://powerman.name/download/Gentoo/service-elogin-1.1.0.tgz
+_md5_=f3bcf424e13a3858a10a0ac35a309acc
