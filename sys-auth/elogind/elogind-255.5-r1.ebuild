@@ -1,10 +1,12 @@
 # Copyright 1999-2024 Gentoo Authors
 # Distributed under the terms of the GNU General Public License v2
 
-EAPI=7
+EAPI=8
+
+PYTHON_COMPAT=(python3_{10..13})
 
 if [[ ${PV} = *9999* ]]; then
-	EGIT_BRANCH="v241-stable"
+	EGIT_BRANCH="v255-stable"
 	EGIT_REPO_URI="https://github.com/elogind/elogind.git"
 	inherit git-r3
 else
@@ -12,14 +14,14 @@ else
 	KEYWORDS="~alpha ~amd64 ~arm ~arm64 ~hppa ~loong ~mips ~ppc ~ppc64 ~riscv ~s390 ~sparc ~x86"
 fi
 
-inherit linux-info meson pam udev xdg-utils
+inherit linux-info meson pam python-any-r1 udev xdg-utils
 
 DESCRIPTION="The systemd project's logind, extracted to a standalone package"
 HOMEPAGE="https://github.com/elogind/elogind"
 
 LICENSE="CC0-1.0 LGPL-2.1+ public-domain"
 SLOT="0"
-IUSE="+acl audit +cgroup-hybrid debug doc +pam +policykit runit selinux test"
+IUSE="+acl audit cgroup-hybrid debug doc +pam +policykit runit selinux test"
 RESTRICT="!test? ( test )"
 
 BDEPEND="
@@ -28,6 +30,8 @@ BDEPEND="
 	app-text/docbook-xsl-stylesheets
 	dev-util/gperf
 	virtual/pkgconfig
+	$(python_gen_any_dep 'dev-python/jinja2[${PYTHON_USEDEP}]')
+	$(python_gen_any_dep 'dev-python/lxml[${PYTHON_USEDEP}]')
 "
 DEPEND="
 	audit? ( sys-process/audit )
@@ -46,16 +50,23 @@ PDEPEND="
 	policykit? ( sys-auth/polkit )
 "
 
-DOCS=( README.md src/libelogind/sd-bus/GVARIANT-SERIALIZATION )
+DOCS=(README.md)
 
 PATCHES=(
-	"${FILESDIR}/${PN}-243.7-nodocs.patch"
-	"${FILESDIR}/${PN}-241.4-broken-test.patch" # bug 699116
-	"${FILESDIR}/${P}-revert-polkit-automagic.patch"
-	"${FILESDIR}/${P}-clang-undefined-symbol.patch"
-	"${FILESDIR}/${P}-loong.patch"
-	"${FILESDIR}/${P}-musl-selinux.patch"
+	# all downstream patches:
+	"${FILESDIR}/${PN}-252.9-nodocs.patch"
+	"${FILESDIR}/${P}-part-revert-header-cleanup.patch" # bug 939673
+	# See also:
+	# https://github.com/elogind/elogind/issues/285
+	"${FILESDIR}/${P}-revert-s2idle.patch" # bug 939042
+	# See also: https://github.com/systemd/systemd/issues/10103
+	"${FILESDIR}/${P}-no-fchmod_and_chown-tty.patch" # thx to Devuan
 )
+
+python_check_deps() {
+	python_has_version "dev-python/jinja2[${PYTHON_USEDEP}]" &&
+		python_has_version "dev-python/lxml[${PYTHON_USEDEP}]"
+}
 
 pkg_setup() {
 	local CONFIG_CHECK="~CGROUPS ~EPOLL ~INOTIFY_USER ~SIGNALFD ~TIMERFD"
@@ -66,6 +77,11 @@ pkg_setup() {
 src_prepare() {
 	default
 	xdg_environment_reset
+
+	# don't cleanup /dev/shm/ on logout on logout
+	# https://bugs.debian.org/cgi-bin/bugreport.cgi?bug=949698
+	sed -e "s/#RemoveIPC=yes/RemoveIPC=no/" \
+		-i src/login/logind.conf.in || die
 }
 
 src_configure() {
@@ -75,15 +91,16 @@ src_configure() {
 		cgroupmode="unified"
 	fi
 
+	python_setup
+
+	EMESON_BUILDTYPE="$(usex debug debug release)"
+
 	local emesonargs=(
 		-Ddocdir="${EPREFIX}/usr/share/doc/${PF}"
 		-Dhtmldir="${EPREFIX}/usr/share/doc/${PF}/html"
-		-Dpamlibdir=$(getpam_mod_dir)
 		-Dudevrulesdir="${EPREFIX}$(get_udevdir)"/rules.d
-		--libdir="${EPREFIX}"/usr/$(get_libdir)
-		-Drootlibdir="${EPREFIX}"/$(get_libdir)
-		-Drootlibexecdir="${EPREFIX}"/$(get_libdir)/elogind
-		-Drootprefix="${EPREFIX}/"
+		--libexecdir="lib/elogind"
+		--localstatedir="${EPREFIX}"/var
 		-Dbashcompletiondir="${EPREFIX}/usr/share/bash-completion/completions"
 		-Dman=auto
 		-Dsmack=true
@@ -92,28 +109,27 @@ src_configure() {
 		-Dcgroup-controller=$(usex runit none openrc)
 		-Ddefault-hierarchy=${cgroupmode}
 		-Ddefault-kill-user-processes=false
-		-Dacl=$(usex acl true false)
-		-Daudit=$(usex audit true false)
-		-Dbuildtype=$(usex debug debug release)
-		-Dhtml=$(usex doc auto false)
-		-Dpam=$(usex pam true false)
-		-Dselinux=$(usex selinux true false)
+		-Dacl=$(usex acl enabled disabled)
+		-Daudit=$(usex audit enabled disabled)
+		-Dhtml=$(usex doc auto disabled)
+		-Dpam=$(usex pam enabled disabled)
+		-Dpamlibdir="$(getpam_mod_dir)"
+		-Dselinux=$(usex selinux enabled disabled)
 		-Dtests=$(usex test true false)
 		-Dutmp=$(usex elibc_musl false true)
+		-Dmode=release
 	)
 
 	meson_src_configure
 }
 
 src_install() {
-	DOCS+=( src/libelogind/sd-bus/GVARIANT-SERIALIZATION )
-
 	meson_src_install
+	keepdir /var/lib/elogind
 
 	newinitd "${FILESDIR}"/${PN}.init-r1 ${PN}
 
-	sed -e "s|@libdir@|$(get_libdir)|" "${FILESDIR}"/${PN}.conf.in > ${PN}.conf || die
-	newconfd ${PN}.conf ${PN}
+	newconfd "${FILESDIR}"/${PN}.conf ${PN}
 
 	if use runit; then
 		exeinto /sbin
@@ -123,6 +139,7 @@ src_install() {
 }
 
 pkg_postinst() {
+	udev_reload
 	if ! use pam; then
 		ewarn "${PN} will not be managing user logins/seats without USE=\"pam\"!"
 		ewarn "In other words, it will be useless for most applications."
@@ -155,4 +172,32 @@ pkg_postinst() {
 			elog "when the first service calls it via dbus."
 		fi
 	fi
+
+	for version in ${REPLACING_VERSIONS}; do
+		if ver_test "${version}" -lt 252.9; then
+			elog "Starting with release 252.9 the sleep configuration is now done"
+			elog "in the /etc/elogind/sleep.conf. Should you use non-default sleep"
+			elog "configuration remember to migrate those to new configuration file."
+		fi
+	done
+
+	local file files
+	# find custom hooks excluding known (nvidia-drivers, sys-power/tlp)
+	if [[ -d "${EROOT}"/$(get_libdir)/elogind/system-sleep ]]; then
+		readarray -t files < <(find "${EROOT}"/$(get_libdir)/elogind/system-sleep/ \
+			-type f \( -not -iname ".keep_dir" -a \
+			-not -iname "nvidia" -a \
+			-not -iname "49-tlp-sleep" \) || die)
+	fi
+	if [[ ${#files[@]} -gt 0 ]]; then
+		ewarn "*** Custom hooks in obsolete path detected ***"
+		for file in "${files[@]}"; do
+			ewarn "    ${file}"
+		done
+		ewarn "Move these custom hooks to ${EROOT}/etc/elogind/system-sleep/ instead."
+	fi
+}
+
+pkg_postrm() {
+	udev_reload
 }
