@@ -73,5 +73,5 @@ runit-service/service-twoftpd 2.0.1: Service for net-ftp/twoftpd
 runit-service/service-x 2.1.1-r1: Service for Xorg
 runit-service/setupservices 1-r3: Setup system to use runit services
 sys-auth/elogind 252.9-r2 255.5-r1: The systemd project's logind, extracted to a standalone package
-sys-libs/wcwidth-icons 0.5.0: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
+sys-libs/wcwidth-icons 1.0.0: Support fonts with double-width icons in xterm/rxvt-unicode/zsh/...
 x11-misc/snixembed 9999: Proxy StatusNotifierItems as XEmbedded systemtray-spec icons
