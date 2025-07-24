@@ -17,7 +17,7 @@ power-misc/addgpginfo 0.4.1: add GnuPG info into email headers while delivering
 power-misc/deliver 4.0.1: Control email delivery (for .qmail only)
 power-misc/greysmtpd 0.2.0: tcpserver-compatible anti-spam (greylisting) smtpd
 power-misc/powerbackup 0.1.5: Simple and flexible incremental backup
-power-misc/powerutils 2.2.14: A bundle of useful small utilities
+power-misc/powerutils 2.2.14 2.2.14-r1: A bundle of useful small utilities
 power-misc/powerwatchdog 0.2.0: Watchdogs for system monitoring
 power-misc/remote 2.0.2: Ease to use wrapper tools for ssh and scp
 power-misc/runit-scripts 1.9.0: Replacement for SysV init scripts to use with runit.
